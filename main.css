@@ -4,16 +4,19 @@ body{
 }
 
 textarea{
-    background: black;
+    background: #131413;
+    border-radius: 20px;
+    padding: 20px;
     color: white;
     font-size: 24px;
     border:none;
     width: 85%;
-    margin-top: 50px;
+    margin-top: 30px;
     font-family: 'Quintessential', monospace;
     font-weight: bolder;
     text-align: center;
     outline: none;
+    resize: none;
 }
 
 input{
@@ -32,5 +35,14 @@ input{
     box-shadow: 
         2px 8px 10px black,
         -2px 8px 10px black;
+}
+
+input:hover{
+    cursor: pointer;
+    box-shadow: 2px 8px 10px limegreen;
+    color: lime;
+    text-shadow:
+       2px 2px 0px black;
+    
 }
 
