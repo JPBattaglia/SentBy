@@ -10,7 +10,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>Sent From</title>
+        <title>Sent-From</title>
         <meta name="description" content="An interactive Random Generator.">
         <link rel="stylesheet" href="main.css">
         <link rel="shortcut icon" type="image/png" href="logo1.png">
@@ -20,7 +20,7 @@
     </head>
     <body>
     
-    <input type="button" value="Generate New Sent From" onclick="GetPlot()"><br>
+    <input type="button" value="Generate New 'Sent-From'" onclick="GetPlot()"><br>
 <textarea name="plot" id ="plot" cols="50" rows="4"></textarea>
 <script type="text/javascript">
 function GetPlot(){
@@ -30,7 +30,7 @@ var Name = new Array("Sent from 2 bean cans with a fucking string between them."
     "Sent from the morse code button on the walkie talkie Santa brought me when I was nine.",
     "Sent from the Audi bluetooth I'm test driving but the salesman doesnt know I'm broke and my credit sucks.",
     "Sent from my iPhone while my dumb ass kid has soccer practice. They suck, I mean suck bad, but the coach is hot though.",
-    "Sent from the back seat of your mom's Lexus. I can alsmost see your house, kind of steamy in here.",
+    "Sent from the back seat of your mom's Lexus. I can almost see your house, kind of steamy in here.",
     "Sent from the confessional at St Paul's... just between us it should be called St Peter's.  Shhhh.",
     "Sent from my DUI class, I need a drink.",
     "Sent from the unemployment office because I told my boss to fuck off.",
@@ -44,6 +44,19 @@ var n = "";
 n = n + Name[randomIndex];
 document.getElementById('plot').value = n;
 }
+</script>
+        
+<br>
+<input onclick="copy()" style="width:85px; margin-top:20px; padding:6px"value="Copy">
+        
+<script>
+  
+    function copy() {
+  let plot = document.getElementById("plot");
+  plot.select();
+  document.execCommand("copy");
+}
+        
 </script>
 
 </body>
