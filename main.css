@@ -1,22 +1,26 @@
 body{
-    background: black;
+    background: #bababa;
     text-align: center;
 }
 
 textarea{
-    background: #131413;
-    border-radius: 20px;
+    color: black;
     padding: 20px;
-    color: white;
-    font-size: 24px;
-    border:none;
+    font-size: 28px;
     width: 85%;
-    margin-top: 30px;
-    font-family: 'Quintessential', monospace;
+    margin-top: 50px;
+    font-family: 'Kaushan Script', monospace;
     font-weight: bolder;
     text-align: center;
     outline: none;
     resize: none;
+    border: none;
+    border-radius: 20px;
+    background: linear-gradient(315deg, #a7a7a7, #c7c7c7);
+    box-shadow:  -9px -9px 24px #979797,
+             9px 9px 24px #dddddd;
+    text-shadow:
+       2px 2px 0px white;
 }
 
 input{
@@ -24,25 +28,29 @@ input{
     outline: none;
     margin-top: 50px;
     color:#fff;
-    padding: 12px;
-    background: repeating-linear-gradient(to top, #030, #070, lightgreen 100%);
-    width: 250px;
-    border-radius: 30px;
+    padding: 10px;
+    width: 300px;
     font-family: 'Federant';
-    font-size: 18px;
+    font-size: 20px;
     text-decoration: none;
-    border: .5px solid #66cc00;
-    box-shadow: 
-        2px 8px 10px black,
-        -2px 8px 10px black;
+    border: none;
+    border-radius: 15px;
+    background: #bababa;
+    box-shadow: inset 5px 5px 9px #888888,
+            inset -5px -5px 9px #ececec;
+    text-shadow:
+       2px 2px 0px black;
 }
 
 input:hover{
     cursor: pointer;
-    box-shadow: 2px 8px 10px limegreen;
-    color: lime;
+    border-radius: 15px;
+    background: #bababa;
+    box-shadow: inset -5px -5px 9px #888888,
+            inset 5px 5px 9px #ececec;
+    color: white;
     text-shadow:
-       2px 2px 0px black;
+       -2px -1px 0px black;
     
 }
 
