@@ -1,5 +1,5 @@
 body{
-    background: linear-gradient(180deg, #bababa, #666 45%, #555 75%, #222 100%);
+    background: linear-gradient(180deg, #bababa, #666 45%, #555 75%, #333 100%);
     text-align: center;
 }
 
@@ -17,9 +17,8 @@ textarea{
     border: 10px double #555;
     border-radius: 20px;
     background: linear-gradient(315deg, #afafaf, #d0d0d0);
-    box-shadow:  -20px -20px 50px #6b6b6b,
-                1px 5px 20px #000,
-             20px 10px 80px #aaa;
+    box-shadow:  
+       1px 8px 20px #000;
     text-shadow:
        2px 3px 0px white;
 }
