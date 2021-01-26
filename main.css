@@ -3,12 +3,12 @@ body{
     text-align: center;
 }
 
-textarea{
+#plot{
     color: black;
     padding: 10px;
     font-size: 28px;
     width: 85%;
-    margin-top: 50px;
+    margin-top: 40px;
     font-family: 'Kaushan Script', monospace;
     font-weight: bolder;
     text-align: center;
@@ -58,3 +58,9 @@ input:hover{
     
 }
 
+@media (min-width: 600px){
+    #plot{
+        padding: 100px 100px 0 100px;
+    font-size: 32px;
+    }
+}
