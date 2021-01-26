@@ -20,12 +20,13 @@
     </head>
     <body>
     
-    <input type="button" value="Generate New 'Sent-From'" onclick="GetPlot()"><br>
-<textarea  name="plot" id ="plot" cols="50" rows="6">Tap on "Generate New Sent-From" until you find the one you like and then tap "Copy" to paste into your email.</textarea>
+    <input data-aos="zoom-in" data-aos-duration="2000" data-aos-delay="300"  type="button" value="Generate New 'Sent-From'" onclick="GetPlot()"><br>
+<textarea data-aos="flip-right" data-aos-duration="1500" data-aos-delay="250"  name="plot" id ="plot" cols="50" rows="6">Tap on "Generate New Sent-From" until you find the one you like and then tap "Copy" to paste into your email.</textarea>
 <script type="text/javascript">
 function GetPlot(){
-var Name = new Array("Sent from 2 bean cans with a fucking string between them.",
-    "Sent from my Great Grandma's rotery phone",
+var Name = new Array(
+    "Sent from 2 bean cans with a fucking string between them.",
+    "Sent from my Great Grandma's rotary phone.",
     "Sent from the payphone at the Opera. Guess who sung? Samsung.",
     "Sent from the morse code button on the walkie talkie Santa brought me when I was nine.",
     "Sent from the Audi bluetooth I'm test driving but the salesman doesnt know I'm broke and my credit sucks.",
@@ -42,6 +43,9 @@ var Name = new Array("Sent from 2 bean cans with a fucking string between them."
     "Sent from my hair appointment, it seems my husband has been lying to me about what the word 'facial' means.",
     "Sent from a dirty blanket and a campfire.",
     "Sent from the Kia two cars back, Learn how to use a turn signal asshole.",
+    "Sent from my old Palm Pilot.",
+    "Sent from the hotel on my wedding night. What the fuck did I just do?",
+    "Sent from the pew in the back of my church. Who knew you couldn't make change in the collection plate?",
     "Sent from my hooker's flip phone. Her pimp busted mine. Best $20 bucks I ever spent.");
 var randomIndex = Math.round(Math.random()*(Name.length-1));
 var n = "";
@@ -51,7 +55,7 @@ document.getElementById('plot').value = n;
 </script>
         
 <br>
-<input onclick="copy()" style="width:100px; border:1px solid grey; margin-top:40px; padding:6px"value="Copy">
+<input data-aos="zoom-in" data-aos-duration="2000" data-aos-delay="300" onclick="copy()" style="width:100px; border:1px solid grey; margin-top:40px; padding:6px"value="Copy">
         
 <script>
   
@@ -62,6 +66,13 @@ document.getElementById('plot').value = n;
 }
         
 </script>
+        
+<script  src="https://unpkg.com/aos@next/dist/aos.js">
+        </script>
+        
+        <script>
+            AOS.init();
+        </script>
 
 </body>
 </html>
