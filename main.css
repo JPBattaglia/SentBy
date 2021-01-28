@@ -63,11 +63,27 @@ button:hover{
 
 #logo{
     width: 80px;
-    margin-top: 100px;
-    right:39%;
+    margin-top: 70px;
     filter: drop-shadow(5px 5px 6px black);
 }
 
+.one{
+    float: left;
+    width: 25px;
+    border-radius: 100px;
+    background-color: #ba2e00;
+    padding:10px;
+    text-align: center;
+}
+
+.two{
+    width: 25px;
+    margin-left: 80px;
+    border-radius: 100px;
+    background-color: #ceb585;
+    padding: 10px;
+    text-align: center;
+}
 /* Popup container - can be anything you want */
 .popup {
   position: relative;
@@ -83,16 +99,15 @@ button:hover{
 .popup .popuptext {
   visibility: hidden;
   width: 60px;
-  background-color: #ba2e00;
   color: #fff;
   text-align: center;
   border-radius: 100px;
   padding: 20px 0;
   position: absolute;
   z-index: 1;
-  bottom: -120px;
+  bottom: 40px;
   left: 45%;
-  margin-left: -90px;
+  margin-left: -60px;
 }
 
 /* Popup arrow */
