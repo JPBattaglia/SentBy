@@ -1,3 +1,7 @@
+*{
+    -webkit-tap-highlight-color: transparent;
+}
+
 body{
     background: linear-gradient(180deg, #0258b5, #003975 45%, #002b59 75%, #001c3b 100%);
     text-align: center;
