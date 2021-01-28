@@ -63,7 +63,7 @@ button:hover{
 
 #logo{
     width: 70px;
-    margin-top: 70px;
+    margin-top: 50px;
     filter: drop-shadow(5px 5px 6px black);
 }
 
@@ -107,7 +107,7 @@ button:hover{
   padding: 20px 0;
   position: absolute;
   z-index: 1;
-  bottom: 40px;
+  bottom: 20px;
   left: 45%;
   margin-left: -60px;
 }
