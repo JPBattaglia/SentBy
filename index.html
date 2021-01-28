@@ -22,9 +22,12 @@
     
     <input data-aos="zoom-in" data-aos-duration="2000" data-aos-delay="300"  type="button" value="Generate New 'Sent-From'" onclick="GetPlot()"><br>
 <textarea data-aos="flip-right" data-aos-duration="1500" data-aos-delay="250"  name="plot" id ="plot" cols="50" rows="6">Tap on "Generate New Sent-From" until you find the one you like and then tap "Copy" to paste into your email.</textarea>
+        
+        
 <script type="text/javascript">
+
 function GetPlot(){
-var Name = new Array(
+var Name = [
     "Sent from 2 bean cans with a fucking string between them.",
     "Sent from my Great Grandma's rotary phone.",
     "Sent from the payphone at the Opera. Guess who sung? Samsung.",
@@ -46,7 +49,8 @@ var Name = new Array(
     "Sent from my old Palm Pilot.",
     "Sent from the hotel on my wedding night. What the fuck did I just do?",
     "Sent from the pew in the back of my church. Who knew you couldn't make change in the collection plate?",
-    "Sent from my hooker's flip phone. Her pimp busted mine. Best $20 bucks I ever spent.");
+    "Sent from my hooker's flip phone. Her pimp busted mine. Best $20 bucks I ever spent."];
+    
 var randomIndex = Math.round(Math.random()*(Name.length-1));
 var n = "";
 n = n + Name[randomIndex];
@@ -55,8 +59,24 @@ document.getElementById('plot').value = n;
 </script>
         
 <br>
-<input data-aos="zoom-in" data-aos-duration="2000" data-aos-delay="300" data-aos-anchor-placement="top-bottom" onclick="copy()" style="width:100px; border:1px solid grey; margin-top:40px; padding:6px"value="Copy">
+<input data-aos="zoom-in" data-aos-duration="2000" data-aos-delay="300" data-aos-anchor-placement="top-bottom" onclick="copy()" style="width:100px; border:1px solid #00c; margin-top:40px; padding:6px"value="Copy"><br>
         
+<div class="popup" onclick="myFunction()">
+
+    <img src="SF.png" id="logo">
+    
+    <span class="popuptext" id="myPopup">Fav</span>
+        
+</div>
+
+<script>
+// When the user clicks on div, open the popup
+function myFunction() {
+  var popup = document.getElementById("myPopup");
+  popup.classList.toggle("show");
+}
+</script>
+
 <script>
   
     function copy() {
