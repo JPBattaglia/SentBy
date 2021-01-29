@@ -65,36 +65,44 @@ button:hover{
     width: 70px;
     margin-top: 50px;
     filter: drop-shadow(5px 5px 6px black);
+    cursor: pointer;
 }
 
 .one{
+    font-size: 15px;
+    font-family: 'Quintessential';
     float: left;
     width: 25px;
     border-radius: 100px;
-    background-color: #ba2e00;
-    padding:10px 7px;
+    background: #bf4000;
+    box-shadow: inset -12px -12px 24px #602000,
+            0px 8px 30px #003975,
+            inset 12px 12px 24px #ff6000;
+    padding:8px 7px;
     text-align: center;
-    border: 2px solid #ceb585;
+    border: 1px solid #ceb585;
+    cursor: pointer;
 }
 
 .two{
+    font-size: 15px;
+    font-family: 'Quintessential';
     width: 25px;
-    margin-left: 80px;
+    margin-left: 90px;
     border-radius: 100px;
-    background-color: #ba2e00;
-    padding: 10px 7px;
+    background: #bf4000;
+    box-shadow: inset -12px -12px 24px #602000,
+            0px 8px 30px #003975,
+            inset 12px 12px 24px #ff6000;
+    padding: 8px 7px;
     text-align: center;
-    border: 2px solid #ceb585;
+    border: 1px solid #ceb585;
+    cursor: pointer;
 }
 /* Popup container - can be anything you want */
 .popup {
   position: relative;
   display: inline-block;
-  cursor: pointer;
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
 }
 
 /* The actual popup */
@@ -109,7 +117,7 @@ button:hover{
   z-index: 1;
   bottom: 20px;
   left: 45%;
-  margin-left: -60px;
+  margin-left: -61px;
 }
 
 /* Popup arrow */
