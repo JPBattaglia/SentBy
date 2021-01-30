@@ -83,7 +83,7 @@ button:hover{
 
 #logo{
     width: 70px;
-    margin-top: 60px;
+    margin-top: 55px;
     filter: drop-shadow(5px 5px 6px black);
     cursor: pointer;
 }
