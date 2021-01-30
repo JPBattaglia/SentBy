@@ -7,6 +7,10 @@ body{
     text-align: center;
 }
 
+.title{
+    width: 300px;
+}
+
 #plot{
     color: #003e83;
     padding: 10px;
@@ -30,7 +34,7 @@ body{
 button{
     text-align: center;
     outline: none;
-    margin-top: 30px;
+    margin-top: 20px;
     color:#fff;
     padding: 10px;
     width: 250px;
@@ -62,16 +66,18 @@ button:hover{
 }
 
 #favButton:hover{
-border-radius: 30px;
-background: #00459e;
-box-shadow: inset 8px 8px 14px #001c3f,
+    border-radius: 30px;
+    background: #00459e;
+    box-shadow: inset 8px 8px 14px #001c3f,
+            0px 8px 30px #ff6000,
             inset -8px -8px 14px #006efd;
 }
 
 #favButton{
     border-radius: 30px;
-background: #00459e;
-box-shadow: inset -8px -8px 14px #001c3f,
+    background: #00459e;
+    box-shadow: inset -8px -8px 14px #001c3f,
+            5px 8px 25px #602000,
             inset 8px 8px 14px #006efd;
 }
 
