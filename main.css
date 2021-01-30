@@ -61,6 +61,20 @@ button:hover{
     
 }
 
+#favButton:hover{
+border-radius: 30px;
+background: #00459e;
+box-shadow: inset 8px 8px 14px #001c3f,
+            inset -8px -8px 14px #006efd;
+}
+
+#favButton{
+    border-radius: 30px;
+background: #00459e;
+box-shadow: inset -8px -8px 14px #001c3f,
+            inset 8px 8px 14px #006efd;
+}
+
 #logo{
     width: 70px;
     margin-top: 80px;
