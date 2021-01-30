@@ -18,10 +18,10 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     </head>
-    <body>
+    <body style="background:linear-gradient( #ff6000, #a83901 40%, #8d3001, #602000);">
     
-    <button data-aos="zoom-in" data-aos-duration="2000" data-aos-delay="300"  type="button" onclick="GetPlot()">Sent-From Favorites</button><br>
-<textarea data-aos="flip-right" data-aos-duration="1500" data-aos-delay="250"  name="plot" id ="plot" cols="50" rows="6">Type or paste your best 'Sent-From' here to create your own list of favorites.</textarea>
+    <button id="favButton" data-aos="zoom-in" data-aos-duration="2000" data-aos-delay="300"  type="button" onclick="GetPlot()">Sent-From Favorites</button><br>
+<textarea data-aos="flip-right" data-aos-duration="1500" data-aos-delay="250" style="border:5px double #00459e" name="plot" id ="plot" cols="50" rows="6">Type or paste your best 'Sent-From' here to create your own list of favorites.</textarea>
         
         
 <script type="text/javascript">
@@ -64,7 +64,7 @@ document.getElementById('plot').value = n;
 </script>
         
 <br>
-<button data-aos="zoom-in" data-aos-duration="2000" data-aos-delay="300" data-aos-anchor-placement="top-bottom" onclick="copy()" style="width:100px; border:1px solid #002; margin-top:40px; padding:6px">Copy</button><br>
+<button id="favButton" data-aos="zoom-in" data-aos-duration="2000" data-aos-delay="300" data-aos-anchor-placement="top-bottom" onclick="copy()" style="width:100px; margin-top:40px; padding:6px">Copy</button><br>
         
 <div class="popup" onclick="myFunction()">
 
