@@ -37,7 +37,7 @@ button{
     margin-top: 20px;
     color:#fff;
     padding: 10px;
-    width: 250px;
+    width: 150px;
     font-family: 'Federant';
     font-size: 20px;
     text-decoration: none;
@@ -65,19 +65,19 @@ button:hover{
     
 }
 
-#favButton:hover{
-    border-radius: 30px;
-    background: #00459e;
-    box-shadow: inset 8px 8px 14px #001c3f,
-            0px 8px 30px #ff6000,
-            inset -8px -8px 14px #006efd;
-}
-
 #favButton{
     border-radius: 30px;
     background: #00459e;
+    box-shadow: inset 8px 8px 14px #001c3f,
+            0px 8px 30px #602000,
+            inset -8px -8px 14px #006efd;
+}
+
+#favButton:hover{
+    border-radius: 30px;
+    background: #00459e;
     box-shadow: inset -8px -8px 14px #001c3f,
-            5px 8px 25px #602000,
+            5px 8px 25px #ff6000,
             inset 8px 8px 14px #006efd;
 }
 
