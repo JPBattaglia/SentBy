@@ -16,18 +16,10 @@ body{
     width:80%;
 }
 
-::placeholder { 
-        color: dimgray;
+#item::placeholder { 
+        color: #b00;
         padding: 10px;
         font-size: 20px;
-    }
-
-    :-ms-input-placeholder { /* Internet Explorer 10-11 */
-        color: dimgray;
-    }
-
-    ::-ms-input-placeholder { /* Microsoft Edge */
-        color: dimgray;;
     }
 
 #item{
