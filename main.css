@@ -256,7 +256,7 @@ button:hover{
     
     #message{
         height: 150px;
-        padding: 50px 30px 0px;
+        padding: 35px 30px 0px;
         color: #b33d02; 
     }
 
@@ -298,7 +298,7 @@ button:hover{
         width: 80%; /* Full width */
         padding: 8px; /* Some padding */  
         border: 5px double #b33d02; /* Gray border */
-        border-radius: 20px; /* Rounded borders */
+        border-radius: 25px; /* Rounded borders */
         box-sizing: border-box; /* Make sure that padding and width stays in place */
         margin-top: 10px; /* Add a top margin */
         margin-bottom: 25px; /* Bottom margin */
