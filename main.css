@@ -11,12 +11,57 @@ body{
     width: 300px;
 }
 
+#favul{
+    margin: auto;
+    width:80%;
+}
+
+::placeholder { 
+        color: dimgray;
+        padding: 10px;
+        font-size: 17px;
+    }
+
+    :-ms-input-placeholder { /* Internet Explorer 10-11 */
+        color: dimgray;
+    }
+
+    ::-ms-input-placeholder { /* Microsoft Edge */
+        color: dimgray;;
+    }
+
+input{
+    outline: none;
+    min-height: 100px;
+}
+
+ul{
+    list-style-type: none;
+    min-height: 200px;
+    color: #003e83;
+    padding: 10px;
+    font-size: 26px;
+    margin-top: 40px auto;
+    font-family: 'Kaushan Script', monospace;
+    font-weight: bolder;
+    text-align: center;
+    outline: none;
+    resize: none;
+    border-radius: 30px;
+    border: 4px double #bf4000;
+    background: linear-gradient(145deg, #ceb585, #ffefc7);
+    box-shadow:  
+             13px 13px 35px #002;
+    text-shadow:
+       2px 2px 0px white;
+}
+
 #plot{
     color: #003e83;
     padding: 10px;
     font-size: 26px;
     width: 85%;
-    margin-top: 40px;
+    margin-top: 40px auto;
     font-family: 'Kaushan Script', monospace;
     font-weight: bolder;
     text-align: center;
@@ -31,7 +76,7 @@ body{
        2px 2px 0px white;
 }
 
-button{
+button, [type=submit]{
     text-align: center;
     outline: none;
     margin-top: 20px;
@@ -51,7 +96,7 @@ button{
        2px 2px 0px #005bbd;
 }
 
-button:hover{
+button:hover, [type=submit]:hover{
     cursor: pointer;
     border-radius: 20px;
     border-radius: 20px;
