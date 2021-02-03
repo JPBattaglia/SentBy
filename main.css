@@ -19,7 +19,7 @@ body{
 ::placeholder { 
         color: dimgray;
         padding: 10px;
-        font-size: 17px;
+        font-size: 20px;
     }
 
     :-ms-input-placeholder { /* Internet Explorer 10-11 */
@@ -40,7 +40,7 @@ body{
     box-shadow:  
              13px 13px 35px #002;
     text-shadow:
-       2px 2px 0px white;
+       2px 1px 0px white;
 }
 
 ul{
@@ -133,6 +133,24 @@ button:hover{
             5px 8px 25px #ff6000,
             inset 8px 8px 14px #006efd;
 }
+
+#favButton1{
+    margin-right: 45px;
+    border-radius: 30px;
+    background: #ff3300;
+    box-shadow: inset 14px 14px 23px #661400,
+            0px 8px 20px #602000,
+            inset -14px -14px 23px #ff5200;
+}
+
+#favButton1:hover{
+    border-radius: 30px;
+    background: #ff3300;
+    box-shadow: inset -14px -14px 23px #661400,
+            5px 8px 20px #ff6000,
+            inset 14px 14px 23px #ff5200;
+}
+
 
 #logo{
     width: 70px;
