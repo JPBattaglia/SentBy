@@ -18,7 +18,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     </head>
-    <body style="background:linear-gradient( #ff6000, #bc4901 40%, #a84100, #602000);">
+    <body style="background:linear-gradient(#ff6000, #bc4901 40%, #a84100, #602000);">
         
         <div>
             <img class="title" src="Sent%20From.png">
@@ -29,10 +29,10 @@
       <input id="item" type="text" placeholder="Add New Favorite Here" >
     </form>
         
-<div id="favul"><ul data-aos="flip-right" data-aos-duration="1500" data-aos-delay="250"></ul></div>
+<div id="favul"><ul id="plot" data-aos="flip-right" data-aos-duration="1500" data-aos-delay="250"></ul></div>
    
 
-<button onclick="wipe()">Clear All</button>
+<button style="width:100px" onclick="wipe()">Clear</button>
         
 <script>
             
@@ -74,8 +74,8 @@ function wipe() {
 </script>
         
         
-<br>
-<button id="favButton" data-aos="zoom-in" data-aos-duration="2000" data-aos-delay="300" data-aos-anchor-placement="top-bottom" onclick="copy()" style="width:100px; margin-top:20px; padding:6px">Copy</button><br>
+
+<button id="favButton" data-aos="zoom-in" data-aos-duration="2000" data-aos-delay="300" data-aos-anchor-placement="top-bottom" onclick="copy()" style="width:100px; margin-top:20px; padding:8px">Copy</button><br>
         
 <div class="popup" onclick="myFunction()">
 
@@ -95,7 +95,7 @@ function myFunction() {
 
 <script>
   
-    function copy() {
+function copy() {
   let plot = document.getElementById("plot");
   plot.select();
   document.execCommand("copy");
