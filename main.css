@@ -49,7 +49,7 @@ ul{
     color: #003e83;
     padding: 10px;
     font-size: 26px;
-    margin-top: 40px auto;
+    margin: auto;
     font-family: 'Kaushan Script', monospace;
     font-weight: bolder;
     text-align: center;
@@ -135,7 +135,9 @@ button:hover{
 }
 
 #favButton1{
-    margin-right: 45px;
+    margin-top: 30px;
+    margin-right: 20px;
+    border: 1px solid #661400;
     border-radius: 30px;
     background: #ff3300;
     box-shadow: inset 14px 14px 23px #661400,
