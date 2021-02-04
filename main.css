@@ -146,7 +146,15 @@ button:hover{
 }
 
 #form{
-    min-height: 70%;
+    position: absolute;
+    height: auto;
+    width: auto;    
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);    
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
 }
 
 #logo{
@@ -263,20 +271,6 @@ button:hover{
         color: #b33d02; 
     }
 
-    select{
-        font-family: 'federant', serif;
-        color: #a00;
-        text-align: center;
-        font-size: 18px;
-        font-weight: bolder;
-        max-width: 40%;
-        background-color: #ffefc7;
-        border: 5px double #b33d02; 
-        border-radius: 20px;
-        padding: 3px 10px;
-        margin-bottom: 15px;
-    }
-
     ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
         color: #c00;
     }
@@ -303,7 +297,7 @@ button:hover{
         border: 5px double #b33d02; /* Gray border */
         border-radius: 25px; /* Rounded borders */
         box-sizing: border-box; /* Make sure that padding and width stays in place */
-        margin-top: 10px; /* Add a top margin */
+        margin-top: 30px; /* Add a top margin */
         margin-bottom: 25px; /* Bottom margin */
         resize: none; 
     }
