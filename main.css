@@ -3,7 +3,8 @@
 }
 
 body{
-    background: linear-gradient(180deg, #0258b5, #003975 45%, #002b59 75%, #001c3b 100%);
+background-image: linear-gradient(180deg, #0200c5 4%, #072dd4 19%, #072dc5 35%, #926941 60%, #bd731a 80%, #d45500 100%);
+
     text-align: center;
 }
 
