@@ -285,6 +285,7 @@ button:hover{
 
     /* Style inputs with type="text", select elements and textareas */
     input[type=text], textarea {
+        outline: none;
         font-family: 'federant', serif;
         font-size: 18px;
         font-weight: bolder;
