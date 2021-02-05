@@ -62,7 +62,7 @@ ul{
     padding: 10px;
     font-size: 26px;
     width: 85%;
-    margin-top: 40px;
+    margin: 40px auto 10px;
     font-family: 'Kaushan Script', monospace;
     font-weight: bolder;
     text-align: center;
