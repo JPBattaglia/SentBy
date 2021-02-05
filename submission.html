@@ -18,71 +18,34 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     </head>
-    <body style="background:linear-gradient(#ff6000, #bc4901 40%, #a84100, #602000);">
+    <body>
         
         <div>
-            <img class="title" src="Sent%20From.png">
-        </div> 
- 
-<form>
-      <input data-aos="zoom-in" data-aos-duration="2000" data-aos-delay="300" data-aos-anchor-placement="top-bottom" id="item" type="text" placeholder="Add New Favorite Here" >
-    </form>
-        
-<div id="favul"><ul id="items"> Type or paste your Sent-From into the box above and then press enter to see it listed here:</ul></div>
-   
-        
-<script>
+            <img class="title" src="Sentfrom.png">
+        </div>
+    
+    <section id="form">
             
-const form = document.querySelector('form');
-const ul = document.querySelector('ul');
-const input = document.getElementById('item');
-let itemsArray = localStorage.getItem('items') ? JSON.parse(localStorage.getItem('items')) : [];
-
-localStorage.setItem('items', JSON.stringify(itemsArray));
-const data = JSON.parse(localStorage.getItem('items'));
-
-const liMaker = (text) => {
-  const li = document.createElement('li');
-  li.textContent = text;
-  ul.appendChild(li);
-}
-
-form.addEventListener('submit', function (e) {
-  e.preventDefault();
-
-  itemsArray.push(input.value);
-  localStorage.setItem('items', JSON.stringify(itemsArray));
-  liMaker(input.value);
-  input.value = "";
-});
-
-data.forEach(item => {
-  liMaker(item);
-});
-
-function wipe() {
-  localStorage.clear();
-  while (ul.firstChild) {
-    ul.removeChild(ul.firstChild);
-  }
-  itemsArray = [];
-};
-
-</script>
-         
-<div id="buttons">     
-<button  data-aos="zoom-in" data-aos-duration="2000" data-aos-delay="300" data-aos-anchor-placement="top-bottom" id="favbutton1" style="width:100px" onclick="wipe()">Clear</button>
-
-<button data-aos="zoom-in" data-aos-duration="2000" data-aos-delay="300" data-aos-anchor-placement="top-bottom" id="favButton" onclick="copy()" style="width:100px; margin-top:20px; padding:8px">Copy</button><br>
-    
- </div>  
-
+             <div class="container">
+                 
+                 <form action="//formspree.io/thenino69@gmail.com" method="POST">
+ 
+                 <input  data-aos="zoom-in-down" data-aos-duration="800" data-aos-delay="1200" data-aos-anchor-placement="top-bottom" type="text" id="fname" name="fname" placeholder="Full Name"><br>
+ 
+                 <input data-aos="zoom-in-down" data-aos-duration="800" data-aos-delay="1100" data-aos-anchor-placement="top-bottom"  type="text" id="email_address" name="email_address" placeholder="Email"><br>
+ 
+                 <textarea data-aos="zoom-in-down" data-aos-duration="800" data-aos-delay="700" data-aos-anchor-placement="top-bottom" id="message" name="message" placeholder="Submit Your Sent-From For Review Here"></textarea><br>
+ 
+                 <button style="border:1px solid #602000; margin-top: 5px; z-index: 1; width:120px; padding:7px 2px;" type="submit">Submit</button> 
+                </form><br>
+             </div>
+        </section>
         
-<div class="popup" onclick="myFunction()">
+<div style="bottom:20px; position:fixed; left: 40%;" class="popup" onclick="myFunction()">
 
-    <img data-aos="zoom-in-up" data-aos-duration="3000" data-aos-delay="500" data-aos-anchor-placement="top-bottom" src="SF.png" id="logo">
+    <img data-aos="zoom-in-up" data-aos-duration="3000" data-aos-delay="2500" data-aos-anchor-placement="top-bottom" src="SF.png" id="logo1">
     
-    <span class="popuptext" id="myPopup"><a href="index.html"><p class="one"><img style="margin:3px 0;" src="home.png"></p></a><a href="submission.html"><p class="two"><img style="margin: 2px 0;" src="Contact.png"></p></a></span>
+    <span class="popuptext" id="myPopup"><a href="favorites.html"><p class="one"><img style="margin:1px 0;" src="Favorites.png"></p></a><a href="index.html"><p class="two"><img style="margin: 3px 0;" src="home.png"></p></a></span>
         
 </div>
 
@@ -92,14 +55,6 @@ function myFunction() {
   var popup = document.getElementById("myPopup");
   popup.classList.toggle("show");
 }
-</script>
-
-<script>
-  
-function copy() {
-  document.execCommand("copy");
-}
-        
 </script>
         
 <script  src="https://unpkg.com/aos@next/dist/aos.js">
