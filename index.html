@@ -57,7 +57,7 @@ var Name = [
     "Sent from the end of the ski lift line. Pretty scary. Wife pissed her pants. Yellow snow ain't that bad.",
     "Sent from my therapist's office. It seems I need more medication.",
     "Sent from the hotel lobbv. The clerk looked at me funny when I asked for more lotion.",
-    "Sent from my hotel room after a 13 hour day. The housekeeper is gonna be mad when she cleans the shower,",
+    "Sent from my hotel room after a 13 hour day. The housekeeper is gonna be mad when she cleans the shower.",
     "Sent from my great uncle's short wave radio.",
     "Sent from the massage parlor. Who knew 'surprise ending' meant my wife and kids would be there?",
     "Sent from lunch with your sister. Turns out it's not just me. She thinks you're a bitch too.",
@@ -65,7 +65,7 @@ var Name = [
     "Sent from behind the bar. Your ass is cut off.",
     "Sent from my hooker's flip phone. Her pimp busted mine. Best $20 bucks I ever spent."];
     
-var randomIndex = Math.round(Math.random()*(Name.length-1));
+var randomIndex = Math.floor(Math.random()*(Name.length-1));
 var n = "";
 n = n + Name[randomIndex];
 document.getElementById('plot').value = n;
