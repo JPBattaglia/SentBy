@@ -5,6 +5,7 @@
 body{
     background: linear-gradient(180deg, #0258b5, #003975 45%, #002b59 75%, #001c3b 100%);
     text-align: center;
+    margin: 20px 0 0;
 }
 
 .title{
@@ -149,9 +150,11 @@ button:hover{
     width: 100%;
     bottom: 10px;
     margin-top: 30px;
+    box-shadow: -2px -5px 10px #001c3f;
 }
 
 #logo{
+    margin-top: 10px;
     width: 70px;
     filter: drop-shadow(5px 5px 6px black);
     cursor: pointer;
@@ -175,7 +178,7 @@ button:hover{
     border-radius: 100px;
     background: #bf4000;
     box-shadow: inset -12px -12px 24px #602000,
-            0px 8px 30px #003975,
+            2px 6px 10px #000,
             inset 12px 12px 24px #ff6000;
     padding:8px 8px;
     text-align: center;
@@ -191,7 +194,7 @@ button:hover{
     border-radius: 100px;
     background: #bf4000;
     box-shadow: inset -12px -12px 24px #602000,
-            0px 8px 30px #003975,
+            2px 6px 10px #000,
             inset 12px 12px 24px #ff6000;
     padding: 8px 8px;
     text-align: center;
