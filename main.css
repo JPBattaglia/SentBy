@@ -145,9 +145,14 @@ button:hover{
             inset 14px 14px 23px #ff5200;
 }
 
+.nav{
+    width: 100%;
+    bottom: 10px;
+    margin-top: 30px;
+}
+
 #logo{
     width: 70px;
-    margin-top: 55px;
     filter: drop-shadow(5px 5px 6px black);
     cursor: pointer;
 }
@@ -162,35 +167,33 @@ button:hover{
     filter: drop-shadow(2px 5px 26px #ff6000);
 }
 
-.one{
+#one{
     color: white;
+    margin: 5px 10%;
     font-size: 15px;
-    font-family: 'Quintessential';
-    float: left;
-    width: 25px;
+    width: 20px;
     border-radius: 100px;
     background: #bf4000;
     box-shadow: inset -12px -12px 24px #602000,
             0px 8px 30px #003975,
             inset 12px 12px 24px #ff6000;
-    padding:8px 7px;
+    padding:8px 8px;
     text-align: center;
     border: 1px solid #ceb585;
     cursor: pointer;
 }
 
-.two{
+#two{
     color: white;
     font-size: 15px;
-    font-family: 'Quintessential';
-    width: 25px;
-    margin-left: 90px;
+    width: 20px;
+    margin: 5px 10%;
     border-radius: 100px;
     background: #bf4000;
     box-shadow: inset -12px -12px 24px #602000,
             0px 8px 30px #003975,
             inset 12px 12px 24px #ff6000;
-    padding: 8px 7px;
+    padding: 8px 8px;
     text-align: center;
     border: 1px solid #ceb585;
     cursor: pointer;
@@ -203,55 +206,7 @@ button:hover{
             inset -12px -12px 24px #ff6000;
 }
 
-/* Popup container - can be anything you want */
-.popup {
-  position: relative;
-  display: inline-block;
-}
 
-/* The actual popup */
-.popup .popuptext {
-  visibility: hidden;
-  width: 60px;
-  color: #fff;
-  text-align: center;
-  border-radius: 100px;
-  padding: 20px 0;
-  position: absolute;
-  z-index: 1;
-  bottom: 20px;
-  left: 45%;
-  margin-left: -61px;
-}
-
-/* Popup arrow */
-.popup .popuptext::after {
-  position: absolute;
-  top: 100%;
-  left: 50%;
-  margin-left: -5px;
-  border-width: 5px;
-  border-style: solid;
-  border-color: #555 transparent transparent transparent;
-}
-
-/* Toggle this class - hide and show the popup */
-.popup .show {
-  visibility: visible;
-  -webkit-animation: fadeIn 1.5s;
-  animation: fadeIn 1.5s;
-}
-
-/* Add animation (fade in the popup) */
-@-webkit-keyframes fadeIn {
-  from {opacity: 0;} 
-  to {opacity: 1;}
-}
-
-@keyframes fadeIn {
-  from {opacity: 0;}
-  to {opacity:1 ;}
-}
     
     #message{
         height: 150px;
@@ -286,13 +241,13 @@ button:hover{
         border: 5px double #b33d02; /* Gray border */
         border-radius: 25px; /* Rounded borders */
         box-sizing: border-box; /* Make sure that padding and width stays in place */
-        margin-top: 30px; /* Add a top margin */
-        margin-bottom: 25px; /* Bottom margin */
+        margin-top: 15px; /* Add a top margin */
+        margin-bottom: 20px; /* Bottom margin */
         resize: none; 
     }
 
 button[type=submit] {
-        margin-bottom: 70px;
+        margin-bottom: 80px;
         color:#fff;
         padding: 10px 39px;
         width: 150px;
@@ -313,6 +268,7 @@ button[type=submit] {
         padding: 30px 0px 0px;
         text-align: center;
         width: 100%;
+        height: 65%;
     }
 
 @media (min-width: 700px){
