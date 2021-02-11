@@ -70,26 +70,20 @@ var n = "";
 n = n + Name[randomIndex];
 document.getElementById('plot').value = n;
 }
+
 </script>
         
 <br>
 <button data-aos="zoom-in" data-aos-duration="2000" data-aos-delay="300" data-aos-anchor-placement="top-bottom" onclick="copy()" style="width:100px; border:1px solid #002; margin-top:20px; padding:6px">Copy</button><br>
         
-<div class="popup" onclick="myFunction()">
-
-    <img data-aos="zoom-in-up" data-aos-duration="3000" data-aos-delay="500" data-aos-anchor-placement="top-bottom" src="SF.png" id="logo">
+<div class="nav">
+        <a href="favorites.html"><img data-aos="zoom-in-left" data-aos-duration="2000" data-aos-delay="2500" data-aos-anchor-placement="top-bottom" id="one" src="Favorites.png"></a>
+        
+        <a href="index.html"><img data-aos="zoom-in-up" data-aos-duration="3000" data-aos-delay="500" data-aos-anchor-placement="top-bottom" src="SF.png" id="logo"></a>
     
-    <span class="popuptext" id="myPopup"><a href="favorites.html"><p class="one"><img style="margin:1px 0;" src="Favorites.png"></p></a><a href="submission.html"><p class="two"><img style="margin: 2px 0;" src="Contact.png"></p></a></span>
+        <a href="submission.html"><img data-aos="zoom-in-right" data-aos-duration="2000" data-aos-delay="2500" data-aos-anchor-placement="top-bottom" id="two" src="Contact.png"></a>
         
 </div>
-
-<script>
-// When the user clicks on div, open the popup
-function myFunction() {
-  var popup = document.getElementById("myPopup");
-  popup.classList.toggle("show");
-}
-</script>
 
 <script>
   
