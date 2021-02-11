@@ -145,18 +145,6 @@ button:hover{
             inset 14px 14px 23px #ff5200;
 }
 
-#form{
-    position: absolute;
-    height: auto;
-    width: auto;    
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);    
-    -webkit-transform: translate(-50%, -50%);
-    -moz-transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
-}
-
 #logo{
     width: 70px;
     margin-top: 55px;
