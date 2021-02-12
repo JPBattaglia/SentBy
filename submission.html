@@ -49,6 +49,17 @@
         <a href="index.html"><img data-aos="zoom-in-up" data-aos-duration="800" data-aos-delay="500" data-aos-anchor-placement="top-bottom" src="SF.png" id="logo"></a>      
 </div>
         
+<script>
+       
+    $("input, select, textarea").bind("focus",function() {
+$("#nav").hide()
+});
+$("input, select, textarea").bind("blur",function() {
+$("#tnav").show()
+});
+        
+</script>
+
 <script  src="https://unpkg.com/aos@next/dist/aos.js">
         </script>
         
