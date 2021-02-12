@@ -3,7 +3,7 @@
 }
 
 body{
-    background: linear-gradient(180deg, #0258b5, #003975 45%, #002b59 75%, #001c3b 100%);
+    background: linear-gradient(180deg, #0258b5, #003975 45%, #002b59 75%, #001c3b 100% 100%);
     text-align: center;
     margin: 20px 0 0;
 }
@@ -247,6 +247,7 @@ button:hover{
         margin-top: 15px; /* Add a top margin */
         margin-bottom: 20px; /* Bottom margin */
         resize: none; 
+        z-index: 99;
     }
 
 button[type=submit] {
