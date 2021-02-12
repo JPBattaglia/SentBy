@@ -10,11 +10,11 @@ html, body{
 body{
     background: linear-gradient(180deg, #0258b5, #003975 45%, #002b59 75%, #001c3b 100% 100%);
     text-align: center;
-    margin: 20px 0 0;
 }
 
 .title{
     width: 300px;
+    margin-top: 20px;
 }
 
 #favul{
@@ -48,7 +48,7 @@ ul{
     color: #003e83;
     padding: 10px;
     font-size: 26px;
-    margin: auto;
+    margin: 10px auto;
     font-family: 'Kaushan Script', monospace;
     font-weight: bolder;
     text-align: center;
@@ -68,7 +68,7 @@ ul{
     padding: 10px;
     font-size: 26px;
     width: 85%;
-    margin: 40px auto 10px;
+    margin: 20px auto 20px;
     font-family: 'Kaushan Script', monospace;
     font-weight: bolder;
     text-align: center;
@@ -86,7 +86,7 @@ ul{
 button{
     text-align: center;
     outline: none;
-    margin-top: 20px;
+    margin: 20px;
     color:#fff;
     padding: 8px;
     width: 150px;
