@@ -59,6 +59,13 @@ $("#tnav").show()
 });
         
 </script>
+        
+<script>
+
+    var rotate = 0 - window.orientation;
+setAttribute("transform:rotate("+rotate+"deg);-ms-transform:rotate("+rotate+"deg);-webkit-transform:rotate("+rotate+"deg)", "style");
+        
+</script>
 
 <script  src="https://unpkg.com/aos@next/dist/aos.js">
         </script>
