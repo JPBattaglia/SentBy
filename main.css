@@ -246,6 +246,7 @@ button:hover{
     }
 
 button[type=submit] {
+        margin-bottom: -20px;
         color:#fff;
         padding: 10px 39px;
         width: 150px;
