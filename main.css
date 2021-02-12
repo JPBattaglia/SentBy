@@ -86,7 +86,7 @@ ul{
 button{
     text-align: center;
     outline: none;
-    margin: 20px;
+    margin: 15px;
     color:#fff;
     padding: 8px;
     width: 150px;
@@ -117,6 +117,7 @@ button:hover{
 }
 
 #favButton{
+    margin-bottom: 10px;
     border-radius: 30px;
     background: #00459e;
     box-shadow: inset 8px 8px 14px #001c3f,
@@ -133,7 +134,6 @@ button:hover{
 }
 
 #favButton1{
-    margin-top: 30px;
     margin-right: 20px;
     border: 1px solid #661400;
     border-radius: 30px;
@@ -251,7 +251,7 @@ button:hover{
     }
 
 button[type=submit] {
-        margin-bottom: -20px;
+        margin: -20px;
         color:#fff;
         padding: 10px 39px;
         width: 150px;
