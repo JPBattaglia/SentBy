@@ -93,7 +93,7 @@ button{
     font-family: 'Federant';
     font-size: 20px;
     text-decoration: none;
-    border: 1px solid #00c;
+    border: .5px solid #ceb585; 
     background: #bf4000;
     box-shadow: inset 12px 12px 24px #602000,
             5px 8px 30px #002,
@@ -117,6 +117,7 @@ button:hover{
 }
 
 #favButton{
+    border: .5px solid #ceb585; 
     margin-bottom: 10px;
     border-radius: 30px;
     background: #00459e;
@@ -134,8 +135,8 @@ button:hover{
 }
 
 #favButton1{
-    margin-right: 20px;
-    border: 1px solid #661400;
+    border: .5px solid #ceb585; 
+    margin-right: 10px;
     border-radius: 30px;
     background: #ff3300;
     box-shadow: inset 14px 14px 23px #661400,
@@ -262,7 +263,7 @@ button[type=submit] {
         margin: -20px;
         color:#fff;
         padding: 10px 39px;
-        width: 150px;
+        width: 110px;
         border-radius: 30px;
         font-family: 'Federant';
         font-size: 20px;
