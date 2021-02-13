@@ -179,7 +179,7 @@ button:hover{
     border-radius: 100px;
     background: #bf4000;
     box-shadow: inset -12px -12px 24px #602000,
-            2px 6px 10px #000,
+            -2px 6px 10px #000,
             inset 12px 12px 24px #ff6000;
     padding:8px 8px;
     text-align: center;
