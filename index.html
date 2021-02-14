@@ -20,11 +20,13 @@
     </head>
     <body>
         
+        <div class="wrapper">
+        
         <div data-aos="zoom-in-up" data-aos-duration="500" data-aos-anchor-placement="top-bottom">
                 <img class="title" src="Sentfrom.png">
         </div> 
     
-    <button data-aos="flip-right" data-aos-duration="600" data-aos-delay="300"  type="button" onclick="GetPlot()">Generate</button><br>
+    <button style="margin: 20px 0 10px 0;" data-aos="flip-right" data-aos-duration="600" data-aos-delay="300"  type="button" onclick="GetPlot()">Generate</button><br>
         
 <textarea data-aos="zoom-in-up" data-aos-duration="500" data-aos-delay="100" name="plot" id ="plot" cols="50" rows="6">Tap on "Generate" until you find the Sent From you like and then tap "Copy" to paste into your email.</textarea>
         
@@ -76,7 +78,7 @@ document.getElementById('plot').value = n;
 </script>
         
 <br>
-<button data-aos="flip-right" data-aos-duration="600" data-aos-delay="300" data-aos-anchor-placement="top-bottom" onclick="copy()" style="width:110px; border: .5px solid #ceb585; margin-top:20px; padding:6px">Copy</button><br>
+<button data-aos="flip-right" data-aos-duration="600" data-aos-delay="300" data-aos-anchor-placement="top-bottom" onclick="copy()" style="width:110px; border: .5px solid #ceb585; margin-top:10px; padding:6px">Copy</button><br>
         
         
 <div class="nav">  
@@ -105,5 +107,7 @@ document.getElementById('plot').value = n;
         <script>
             AOS.init();
         </script>
+            
+        </div>
 </body>
 </html>
