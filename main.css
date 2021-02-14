@@ -122,7 +122,7 @@ button:hover{
     border-radius: 30px;
     background: #00459e;
     box-shadow: inset 8px 8px 14px #001c3f,
-            0px 8px 30px #602000,
+            13px 13px 35px #002,
             inset -8px -8px 14px #006efd;
 }
 
@@ -140,7 +140,7 @@ button:hover{
     border-radius: 30px;
     background: #ff3300;
     box-shadow: inset 14px 14px 23px #661400,
-            0px 8px 20px #602000,
+            13px 13px 35px #002,
             inset -14px -14px 23px #ff5200;
 }
 
@@ -237,7 +237,7 @@ button:hover{
         font-weight: bolder;
         background-color: #ffefc7;
         margin: auto;
-        box-shadow: 2px 4px 10px #111109;
+        box-shadow: 13px 13px 25px #002;
         text-align: center;
         width: 80%; /* Full width */
         padding: 8px; /* Some padding */  
