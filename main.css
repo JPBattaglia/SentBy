@@ -49,7 +49,7 @@ ul{
     color: #003e83;
     padding: 10px;
     font-size: 26px;
-    margin: 10px auto;
+    margin: auto;
     font-family: 'Kaushan Script', monospace;
     font-weight: bolder;
     text-align: center;
@@ -192,7 +192,7 @@ button:hover{
     color: white;
     font-size: 15px;
     width: 20px;
-    margin: 25px 36px 0 30;
+    margin: 2px 36px 0 20;
     border-radius: 30px;
     background: #bf4000;
     box-shadow: inset -12px -12px 24px #602000,
@@ -252,7 +252,7 @@ button:hover{
     }
 
 button[type=submit] {
-        margin: -20px;
+        margin: -29px;
         color:#fff;
         padding: 10px 39px;
         width: 110px;
