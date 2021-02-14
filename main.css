@@ -210,15 +210,6 @@ button:hover{
             inset -12px -12px 24px #ff6000;
 }
 
-#line{
-    float: left;
-    background: #ffefc7;
-    width: 150px;
-    height: 1px;
-    margin: -23 0px 0px 109px;
-}
-
-
     
     #message{
         height: 150px;
