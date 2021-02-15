@@ -204,6 +204,36 @@ button:hover{
     cursor: pointer;
 }
 
+#onefav{
+    color: white;
+    margin: 35px 30% 0 36px;
+    font-size: 15px;
+    width: 20px;
+    border-radius: 100px;
+    box-shadow: inset -8px -8px 14px #001c3f,
+            5px 8px 25px #002,
+            inset 8px 8px 14px #006efd;
+    padding:8px 8px;
+    text-align: center;
+    border: 1px solid #ceb585;
+    cursor: pointer;
+}
+
+#twofav{
+    color: white;
+    font-size: 15px;
+    width: 20px;
+    margin: 2px 36px 0 20;
+    border-radius: 30px;
+    box-shadow: inset -8px -8px 14px #001c3f,
+            5px 8px 25px #002,
+            inset 8px 8px 14px #006efd;
+    padding: 8px 8px;
+    text-align: center;
+    border: 1px solid #ceb585;
+    cursor: pointer;
+}
+
 .one:hover, .two:hover{
     background: #bf4000;
     box-shadow: inset 12px 12px 24px #602000,
