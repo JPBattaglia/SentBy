@@ -96,9 +96,9 @@ button{
     text-decoration: none;
     border: .5px solid #ceb585; 
     background: #bf4000;
-    box-shadow: inset 11px 11px 12px #581d00,
+    box-shadow: inset -11px -11px 12px #581d00,
             5px 8px 30px #002,
-            inset -11px -11px 12px #ff6300;
+            inset 11px 11px 12px #ff6300;
     border-radius: 20px;
     text-shadow:
        2px 2px 0px #005bbd;
@@ -109,9 +109,9 @@ button:hover{
     border-radius: 20px;
     border-radius: 20px;
     background: #bf4000;
-    box-shadow: inset -11px -11px 12px #581d00,
+    box-shadow: inset 11px 11px 12px #581d00,
             0px 8px 30px #0c7ffa,
-            inset 11px 11px 12px #ff6300;
+            inset -11px -11px 12px #ff6300;
     color: #fff;
     text-shadow:
        -2px -1px 0px black;
