@@ -179,9 +179,9 @@ button:hover{
     width: 20px;
     border-radius: 100px;
     background: #bf4000;
-    box-shadow: inset -12px -12px 24px #602000,
+    box-shadow: inset -12px -12px 11px #752700,
             -2px 6px 10px #000,
-            inset 12px 12px 24px #ff6000;
+            inset 12px 12px 11px #ff5900;
     padding:8px 8px;
     text-align: center;
     border: 1px solid #ceb585;
@@ -195,9 +195,9 @@ button:hover{
     margin: 2px 36px 0 20;
     border-radius: 30px;
     background: #bf4000;
-    box-shadow: inset -12px -12px 24px #602000,
+    box-shadow: inset -12px -12px 11px #752700,
             2px 6px 10px #000,
-            inset 12px 12px 24px #ff6000;
+            inset 12px 12px 11px #ff5900;
     padding: 8px 8px;
     text-align: center;
     border: 1px solid #ceb585;
