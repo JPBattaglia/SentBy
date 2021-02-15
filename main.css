@@ -308,12 +308,20 @@ button[type=submit] {
         margin: 40px;
     }
     
-    #plot{
-        margin: 50px auto;
+    #item{
+        margin-bottom: 20px;
     }
     
-    button[type=submit] {
+    #plot{
+        margin: 30px auto;
+    }
+    
+    button[type=submit]{
         margin: 20px;
+    }
+    
+    #favbutton{
+        margin: 30px;
     }
     
 }
