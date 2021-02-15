@@ -312,6 +312,10 @@ button[type=submit] {
         margin: 50px auto;
     }
     
+    button[type=submit] {
+        margin: 20px;
+    }
+    
 }
 
 @media (min-width: 700px){
