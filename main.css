@@ -66,7 +66,7 @@ ul{
 
 #plot{
     color: #003e83;
-    padding: 10px;
+    padding: 10px 0px;
     font-size: 26px;
     width: 85%;
     margin: 20px auto 20px;
@@ -377,7 +377,7 @@ button[type=submit] {
     }
     
     #plot{
-        padding: 100px 100px 0 100px;
+        padding: 70px 70px 0 70px;
         font-size: 32px;
         width: 75%;
         margin: 40px auto;
@@ -407,7 +407,7 @@ button[type=submit] {
     button[type=submit]{
         width: 170px;
         padding: 12px;
-        margin: 45px 0 0;
+        margin: 40px 0 0;
         font-size: 28px;
         border-radius: 100px;
     }
@@ -415,7 +415,7 @@ button[type=submit] {
     #copyB{
         width: 150px;
         padding: 12px;
-        margin: 30px 0 30px;
+        margin: 30px 0 45px;
         font-size: 30px;
         border-radius: 100px;
     }
