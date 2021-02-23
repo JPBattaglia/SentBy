@@ -220,6 +220,7 @@ button:hover{
     font-size: 15px;
     width: 20px;
     border-radius: 100px;
+    background:  #00459e;
     box-shadow: inset -8px -8px 14px #001c3f,
             5px 8px 25px #002,
             inset 8px 8px 14px #006efd;
@@ -235,6 +236,7 @@ button:hover{
     width: 20px;
     margin: 2px 36px 0 20;
     border-radius: 30px;
+    background:  #00459e;
     box-shadow: inset -8px -8px 14px #001c3f,
             5px 8px 25px #002,
             inset 8px 8px 14px #006efd;
