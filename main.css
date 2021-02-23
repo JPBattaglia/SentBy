@@ -117,6 +117,14 @@ button:hover{
        -2px -1px 0px black;
 }
 
+#copyB{
+        width: 85px;
+        padding: 8px;
+        margin: 10px;
+        font-size: 18px;
+        border-radius: 100px;
+    }
+
 #favButton{
     border: .5px solid #ceb585; 
     margin-bottom: 10px;
@@ -304,16 +312,12 @@ button[type=submit] {
         margin: 30px auto;
     }
     
-    button{
-        margin: 40px;
-    }
-    
     #item{
         margin-bottom: 20px;
     }
     
     #plot{
-        margin: 30px auto;
+        margin: 50px auto;
     }
     
     button[type=submit]{
@@ -327,9 +331,87 @@ button[type=submit] {
 }
 
 @media (min-width: 700px){
+    
+    input[type=text]{
+        height: 100px;
+        border-radius: 100px;
+        margin: 40px;
+        font-size: 30px;
+    }
+    
+    #message{
+        height: 300px;
+        border-radius: 50px;
+        font-size: 30px;
+        padding: 100px 150px;
+    }
+    
+    #item{
+        height: 150px;
+        margin: 50px auto 75px;
+        font-size: 30px;
+    }
+    
+    ::placeholder {
+        font-size: 30px;
+    }
+    
+    ul{
+        margin-bottom: 50px;
+        font-size: 30px;
+        padding: 60px;
+    }
+    
+    #favbutton1, #favbutton{
+        width: 200px;
+        font-size: 40px;
+        border-radius: 100px;
+        padding: 15px;
+        margin-bottom: 75px;
+    }
+    
     #plot{
         padding: 100px 100px 0 100px;
         font-size: 32px;
+        width: 75%;
+        margin: 80px auto;
+    }
+    
+    .title{
+        width: 400px;
+        margin: 50px;
+    }
+    
+    #one, #two, #onefav, #twofav{
+        width: 35px;
+    }
+    
+    #logo{
+        width: 85px;
+    }
+    
+    button{
+        width: 250px;
+        padding: 15px;
+        margin: 40px;
+        font-size: 30px;
+        border-radius: 100px;
+    }
+    
+    button[type=submit]{
+        width: 200px;
+        padding: 15px;
+        margin: 40px 0 0;
+        font-size: 30px;
+        border-radius: 100px;
+    }
+    
+    #copyB{
+        width: 150px;
+        padding: 12px;
+        margin: 40px 0 100px;
+        font-size: 30px;
+        border-radius: 100px;
     }
 }
 
