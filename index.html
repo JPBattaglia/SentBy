@@ -20,6 +20,8 @@
     </head>
     <body>
         
+        <div class="wrapper">
+        
         <div data-aos="zoom-in-up" data-aos-duration="500" data-aos-anchor-placement="top-bottom">
                 <img class="title" src="Sentfrom.png">
         </div> 
@@ -76,7 +78,7 @@ document.getElementById('plot').value = n;
 </script>
         
 <br>
-<button data-aos="flip-right" data-aos-duration="600" data-aos-delay="300" data-aos-anchor-placement="top-bottom" onclick="copy()" style="width:110px; border: .5px solid #ceb585; margin-top:15px; padding:6px">Copy</button><br>
+<button id="copyB" data-aos="flip-right" data-aos-duration="600" data-aos-delay="300" data-aos-anchor-placement="top-bottom" onclick="copy()">Copy</button><br>
         
         
 <div class="nav">  
@@ -105,6 +107,6 @@ document.getElementById('plot').value = n;
         <script>
             AOS.init();
         </script>
-            
+</div>           
 </body>
 </html>
