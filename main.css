@@ -126,6 +126,7 @@ button:hover{
     }
 
 #favButton{
+    width: 100px;
     border: .5px solid #ceb585; 
     margin-bottom: 10px;
     border-radius: 30px;
@@ -144,6 +145,7 @@ button:hover{
 }
 
 #favButton1{
+    width: 100px;
     border: .5px solid #ceb585; 
     margin-right: 10px;
     border-radius: 30px;
@@ -254,6 +256,7 @@ button:hover{
         height: 150px;
         padding: 35px 30px 0px;
         color: #b33d02; 
+        margin-bottom: 15px;
     }
 
     ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
@@ -290,14 +293,13 @@ button:hover{
     }
 
 button[type=submit] {
-        margin: -29px;
         color:#fff;
-        padding: 10px 39px;
         width: 110px;
         border-radius: 30px;
         font-family: 'Federant';
         font-size: 20px;
         text-decoration: none;
+        margin-bottom: -40px;
     }
 
 
@@ -309,7 +311,7 @@ button[type=submit] {
 
 @media (min-height: 737px){
     .title{
-        margin: 30px auto;
+        margin: 20px auto;
     }
     
     #item{
@@ -325,29 +327,33 @@ button[type=submit] {
     }
     
     #favbutton{
-        margin: 30px;
+        margin: 20px 30px;
     }
     
 }
 
 @media (min-width: 700px){
     
+    #favul{
+        margin: -15px auto;
+    }
+    
     input[type=text]{
-        height: 100px;
+        height: 70px;
         border-radius: 100px;
         margin: 40px;
         font-size: 30px;
     }
     
     #message{
-        height: 300px;
+        height: 220px;
         border-radius: 50px;
         font-size: 30px;
-        padding: 100px 150px;
+        padding: 40px 50px;
     }
     
     #item{
-        height: 150px;
+        height: 100px;
         margin: 50px auto 75px;
         font-size: 30px;
     }
@@ -357,29 +363,29 @@ button[type=submit] {
     }
     
     ul{
-        margin-bottom: 50px;
+        margin-bottom: 20px;
         font-size: 30px;
         padding: 60px;
     }
     
     #favbutton1, #favbutton{
-        width: 200px;
-        font-size: 40px;
+        width: 150px;
+        font-size: 30px;
         border-radius: 100px;
-        padding: 15px;
-        margin-bottom: 75px;
+        padding: 10px;
+        margin-bottom: 35px;
     }
     
     #plot{
         padding: 100px 100px 0 100px;
         font-size: 32px;
         width: 75%;
-        margin: 80px auto;
+        margin: 40px auto;
     }
     
     .title{
         width: 400px;
-        margin: 50px;
+        margin: 30px;
     }
     
     #one, #two, #onefav, #twofav{
@@ -399,17 +405,17 @@ button[type=submit] {
     }
     
     button[type=submit]{
-        width: 200px;
-        padding: 15px;
-        margin: 40px 0 0;
-        font-size: 30px;
+        width: 170px;
+        padding: 12px;
+        margin: 45px 0 0;
+        font-size: 28px;
         border-radius: 100px;
     }
     
     #copyB{
         width: 150px;
         padding: 12px;
-        margin: 40px 0 100px;
+        margin: 30px 0 30px;
         font-size: 30px;
         border-radius: 100px;
     }
