@@ -1,431 +1,113 @@
-*{
-    -webkit-tap-highlight-color: transparent;
-}
-
-html, body{
-    margin: 0;
-    height: 100%;
-}
-
-body{
-    background: linear-gradient(180deg, #0258b5, #003975 45%, #002b59 75%, #001c3b 100% 100%);
-    text-align: center;
-}
-
-.title{
-    width: 300px;
-    margin-top: 20px;
-    filter: drop-shadow(14px 10px 10px #000);
-}
-
-#favul{
-    margin: auto;
-    width:80%;
-}
-
-#item::placeholder { 
-        color: #b00;
-        padding: 10px;
-        font-size: 20px;
-    }
-
-#item{
-    margin: 25px 0 15px;
-    color: #003e83;
-    outline: none;
-    min-height: 75px;
-    border-radius: 20px;
-    border: 4px double #bf4000;
-    background: linear-gradient(145deg, #ceb585, #ffefc7);
-    box-shadow:  
-             13px 13px 35px #002;
-    text-shadow:
-       2px 1px 0px white;
-}
-
-ul{
-    list-style-type:none;
-    min-height: 200px;
-    color: #003e83;
-    padding: 10px;
-    font-size: 26px;
-    margin: 0 auto 10px;
-    font-family: 'Kaushan Script', monospace;
-    font-weight: bolder;
-    text-align: center;
-    outline: none;
-    resize: none;
-    border-radius: 20px;
-    border: 4px double #bf4000;
-    background: linear-gradient(145deg, #ceb585, #ffefc7);
-    box-shadow:  
-             13px 13px 35px #002;
-    text-shadow:
-       2px 2px 0px white;
-}
-
-#plot{
-    color: #003e83;
-    padding: 10px 20px;
-    font-size: 26px;
-    width: 85%;
-    margin: 20px auto 20px;
-    font-family: 'Kaushan Script', monospace;
-    font-weight: bolder;
-    text-align: center;
-    outline: none;
-    resize: none;
-    border-radius: 15px;
-    border: 4px double #bf4000;
-    background: linear-gradient(145deg, #ceb585, #ffefc7);
-    box-shadow:  
-             13px 13px 35px #002;
-    text-shadow:
-       2px 2px 0px white;
-}
-
-button{
-    text-align: center;
-    outline: none;
-    margin: 15px;
-    color:#fff;
-    padding: 8px;
-    width: 150px;
-    font-family: 'Federant';
-    font-size: 20px;
-    text-decoration: none;
-    border: .5px solid #ceb585; 
-    background: #bf4000;
-    box-shadow: inset -11px -11px 12px #581d00,
-            5px 8px 30px #002,
-            inset 11px 11px 12px #ff6300;
-    border-radius: 20px;
-    text-shadow:
-       2px 2px 0px #005bbd;
-}
-
-button:hover{
-    cursor: pointer;
-    border-radius: 20px;
-    border-radius: 20px;
-    background: #bf4000;
-    box-shadow: inset 11px 11px 12px #581d00,
-            0px 8px 30px #0c7ffa,
-            inset -11px -11px 12px #ff6300;
-    color: #fff;
-    text-shadow:
-       -2px -1px 0px black;
-}
-
-#copyB{
-        width: 85px;
-        padding: 8px;
-        margin: 10px;
-        font-size: 18px;
-        border-radius: 100px;
-    }
-
-#favButton{
-    width: 100px;
-    border: .5px solid #ceb585; 
-    margin-bottom: 10px;
-    border-radius: 30px;
-    background: #00459e;
-    box-shadow: inset 8px 8px 14px #001c3f,
-            13px 13px 35px #002,
-            inset -8px -8px 14px #006efd;
-}
-
-#favButton:hover{
-    border-radius: 30px;
-    background: #00459e;
-    box-shadow: inset -8px -8px 14px #001c3f,
-            5px 8px 25px #ff6000,
-            inset 8px 8px 14px #006efd;
-}
-
-#favButton1{
-    width: 100px;
-    border: .5px solid #ceb585; 
-    margin-right: 10px;
-    border-radius: 30px;
-    background: #ff3300;
-    box-shadow: inset 14px 14px 23px #661400,
-            13px 13px 35px #002,
-            inset -14px -14px 23px #ff5200;
-}
-
-#favButton1:hover{
-    border-radius: 30px;
-    background: #ff3300;
-    box-shadow: inset -14px -14px 23px #661400,
-            5px 8px 20px #ff6000,
-            inset 14px 14px 23px #ff5200;
-}
-
-.nav{
-    width: 100%;
-    bottom: 10px;
-    margin-top: 30px;
-    box-shadow: -2px -5px 10px #001c3f;
-    z-index: 1;
-}
-
-#logo{
-    margin: -70px 30%;
-    width: 70px;
-    filter: drop-shadow(5px 5px 6px black);
-    cursor: pointer;
-}
-
-#logo:hover{
-    filter: drop-shadow(2px 5px 26px #ff6000);
-}
-
-#one{
-    color: white;
-    margin: 35px 30% 0 36px;
-    font-size: 15px;
-    width: 20px;
-    border-radius: 100px;
-    background: #bf4000;
-    box-shadow: inset -11px -11px 12px #581d00,
-            -2px 6px 10px #000,
-            inset 11px 11px 12px #ff6300;
-    padding:8px 8px;
-    text-align: center;
-    border: 1px solid #ceb585;
-    cursor: pointer;
-}
-
-#two{
-    color: white;
-    font-size: 15px;
-    width: 20px;
-    margin: 2px 36px 0 20;
-    border-radius: 30px;
-    background: #bf4000;
-    box-shadow: inset -11px -11px 12px #581d00,
-            2px 6px 10px #000,
-            inset 11px 11px 12px #ff6300;
-    padding: 8px 8px;
-    text-align: center;
-    border: 1px solid #ceb585;
-    cursor: pointer;
-}
-
-#onefav{
-    color: white;
-    margin: 35px 30% 0 36px;
-    font-size: 15px;
-    width: 20px;
-    border-radius: 100px;
-    background:  #00459e;
-    box-shadow: inset -8px -8px 14px #001c3f,
-            5px 8px 25px #002,
-            inset 8px 8px 14px #006efd;
-    padding:8px 8px;
-    text-align: center;
-    border: 1px solid #ceb585;
-    cursor: pointer;
-}
-
-#twofav{
-    color: white;
-    font-size: 15px;
-    width: 20px;
-    margin: 2px 36px 0 20;
-    border-radius: 30px;
-    background:  #00459e;
-    box-shadow: inset -8px -8px 14px #001c3f,
-            5px 8px 25px #002,
-            inset 8px 8px 14px #006efd;
-    padding: 8px 8px;
-    text-align: center;
-    border: 1px solid #ceb585;
-    cursor: pointer;
-}
-
-.one:hover, .two:hover{
-    background: #bf4000;
-    box-shadow: inset 12px 12px 24px #602000,
-            1px 4px 10px black,
-            inset -12px -12px 24px #ff6000;
-}
-
+<html>
+    <head>
+	<meta property="og:title" content="Sent-From" />
+	<meta property="og:image:type" content="image/png" />
+	<meta property="og:image:width" content="400" />
+	<meta property="og:image:height" content="300" />
+	<meta property="og:image" content="https://i.ibb.co/dtYHrc6/Sent-From-link-image.png"/>
+	<meta property="og:image:secure_url" content="https://i.ibb.co/dtYHrc6/Sent-From-link-image.png"/>
+        <meta name="keywords" content="Sent From My...">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Sent-From</title>
+        <meta name="description" content="Sent From My...Random Generator for e-mail.">
+        <link rel="stylesheet" href="main.css">
+        <link rel="shortcut icon" type="image/png" href="Envelope.png">
+        <link href="https://fonts.googleapis.com/css?family=Federant|Akronim|Kaushan+Script|Orbitron|Quintessential" rel="stylesheet"> 
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    </head>
+    <body>
+        
+        <div class="wrapper">
+        
+        <div data-aos="zoom-in-up" data-aos-duration="500" data-aos-anchor-placement="top-bottom">
+                <img class="title" src="Sentfrom.png">
+        </div> 
     
-    #message{
-        height: 150px;
-        padding: 35px 30px 0px;
-        color: #b33d02; 
-        margin-bottom: 15px;
-    }
+    <button style="margin: 30px 0 10px 0;" data-aos="flip-right" data-aos-duration="600" data-aos-delay="300"  type="button" onclick="GetPlot()">Generate</button><br>
+        
+<textarea data-aos="zoom-in-up" data-aos-duration="500" data-aos-delay="100" name="plot" id ="plot" cols="50" rows="6">Tap on "Generate" until you find the Sent From you like and then tap "Copy" to paste into your email.</textarea>
+        
+        
+<script type="text/javascript">
 
-    ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
-        color: #c00;
-    }
-
-    :-ms-input-placeholder { /* Internet Explorer 10-11 */
-        color: red;
-    }
-
-    ::-ms-input-placeholder { /* Microsoft Edge */
-        color: red;
-    }
-
-    /* Style inputs with type="text", select elements and textareas */
-    input[type=text], textarea {
-        outline: none;
-        font-family: 'federant', serif;
-        font-size: 18px;
-        font-weight: bolder;
-        background-color: #ffefc7;
-        margin: auto;
-        box-shadow: 13px 13px 25px #002;
-        text-align: center;
-        width: 80%; /* Full width */
-        padding: 8px; /* Some padding */  
-        border: 5px double #b33d02; /* Gray border */
-        border-radius: 25px; /* Rounded borders */
-        box-sizing: border-box; /* Make sure that padding and width stays in place */
-        margin-top: 25px; /* Add a top margin */
-        margin-bottom: 25px; /* Bottom margin */
-        resize: none; 
-        z-index: 99;
-    }
-
-button[type=submit] {
-        color:#fff;
-        width: 110px;
-        border-radius: 30px;
-        font-family: 'Federant';
-        font-size: 20px;
-        text-decoration: none;
-        margin-bottom: -40px;
-    }
-
-
-    /* Add a background color and some padding around the form */
-    .container{
-        max-width: 95%;
-        margin: auto;
-    }
-
-@media (min-height: 737px){
-    .title{
-        margin: 20px auto;
-    }
+function GetPlot(){
+var Name = [
+    "Sent from 2 bean cans with a string between them.",
+    "Sent from my Great Grandma's rotary phone.",
+    "Sent from the payphone at the Opera. Guess who sung? Samsung.",
+    "Sent from the morse code button on the walkie talkie Santa brought me when I was nine.",
+    "Sent from the Audi bluetooth I'm test driving but the salesman doesnt know I'm broke and my credit sucks.",
+    "Sent from my iPhone while my dumb kid has soccer practice. They suck, I mean suck bad, but the coach is hot though.",
+    "Sent from the back seat of your mom's Lexus. I can almost see your house.",
+    "Sent from the confessional at St Paul's... just between us it should be called St Peter's.  Shhhh.",
+    "Sent from my DUI class, I need a drink.",
+    "Sent from the unemployment office because I told my boss off.",
+    "Sent from the inside of my landlord's closet. He evicted me. Man is he in for a surprise.",
+    "Sent from your Roku. I can't believe you watched Twighlight 16 times last month. You need help.",
+    "Sent from the treadmill at my gym... yoga pants aren't for everyone, Jeez.",
+    "Sent from your 4th grade math class. Your teacher said you were dumb back then too.",
+    "Sent from the STD clinic, it seems I have a few calls to make.",
+    "Sent from my hair appointment, it seems my husband has been lying to me about what the word 'facial' means.",
+    "Sent from a dirty blanket and a campfire.",
+    "Sent from the Kia two cars back, Learn how to use a turn signal!",
+    "Sent from my old Palm Pilot.",
+    "Sent from the hotel on my wedding night. What did I just do?",
+    "Sent from the pew in the back of my church. Who knew you couldn't make change in the collection plate?",
+    "Sent from the brothel at the state line. Gonna be a few minutes late.",
+    "Sent from the end of the ski lift line. Pretty scary. Wife pissed her pants. Yellow snow ain't that bad.",
+    "Sent from my therapist's office. It seems I need more medication.",
+    "Sent from the hotel lobbv. The clerk looked at me funny when I asked for more lotion.",
+    "Sent from my hotel room after a 13 hour day. The housekeeper is gonna be mad when she cleans the shower.",
+    "Sent from my great uncle's short wave radio.",
+    "Sent from the massage parlor. Who knew 'surprise ending' meant my wife and kids would be there?",
+    "Sent from lunch with your sister. Turns out it's not just me. She thinks you're a punk too.",
+    "Sent from my campfire with smoke signals. Not my fault it's dark and windy.",
+    "Sent from behind the bar. You're cut off.",
+    "Sent from Applebee's. Chic next to me just sighed... like heavily when they asked 'is Sierra Mist okay?'",
+    "Sent from the C.B. in my van... down by the river.",
+    "Sent from my hooker's flip phone. Her pimp busted mine. Best $20 bucks I ever spent."];
     
-    #item{
-        margin-bottom: 20px;
-    }
-    
-    #plot{
-        margin: 50px auto;
-    }
-    
-    button[type=submit]{
-        margin: 20px;
-    }
-    
-    #favbutton{
-        margin: 20px 30px;
-    }
-    
+var randomIndex = Math.floor(Math.random()*(Name.length-1));
+var n = "";
+n = n + Name[randomIndex];
+document.getElementById('plot').value = n;
 }
 
-@media (min-width: 700px){
+</script>
+        
+<br>
+<button id="copyB" data-aos="flip-right" data-aos-duration="600" data-aos-delay="300" data-aos-anchor-placement="top-bottom" onclick="copy()">Copy</button><br>
+        
+        
+<div class="nav">  
     
-    #favul{
-        margin: -15px auto;
-    }
+        <a href="favorites.html"><img data-aos="zoom-in-left" data-aos-duration="500" data-aos-delay="300" data-aos-anchor-placement="top-bottom" id="one" src="Favorites.png"></a>
     
-    input[type=text]{
-        height: 70px;
-        border-radius: 100px;
-        margin: 40px;
-        font-size: 30px;
-    }
+        <a href="submission.html"><img data-aos="zoom-in-right" data-aos-duration="500" data-aos-delay="300" data-aos-anchor-placement="top-bottom" id="two" src="Contact.png"></a>
     
-    #message{
-        height: 220px;
-        border-radius: 50px;
-        font-size: 30px;
-        padding: 40px 50px;
-    }
-    
-    #item{
-        height: 100px;
-        margin: 50px auto 75px;
-        font-size: 30px;
-    }
-    
-    ::placeholder {
-        font-size: 30px;
-    }
-    
-    ul{
-        margin-bottom: 20px;
-        font-size: 30px;
-        padding: 60px;
-    }
-    
-    #favbutton1, #favbutton{
-        width: 150px;
-        font-size: 30px;
-        border-radius: 100px;
-        padding: 10px;
-        margin-bottom: 35px;
-    }
-    
-    #plot{
-        padding: 70px 70px 0 70px;
-        font-size: 32px;
-        width: 75%;
-        margin: 40px auto;
-    }
-    
-    .title{
-        width: 400px;
-        margin: 30px;
-    }
-    
-    #one, #two, #onefav, #twofav{
-        width: 35px;
-    }
-    
-    #logo{
-        width: 85px;
-    }
-    
-    button{
-        width: 250px;
-        padding: 15px;
-        margin: 40px;
-        font-size: 30px;
-        border-radius: 100px;
-    }
-    
-    button[type=submit]{
-        width: 170px;
-        padding: 12px;
-        margin: 40px 0 0;
-        font-size: 28px;
-        border-radius: 100px;
-    }
-    
-    #copyB{
-        width: 150px;
-        padding: 12px;
-        margin: 30px 0 45px;
-        font-size: 30px;
-        border-radius: 100px;
-    }
-}
+        <a href="index.html"><img data-aos="zoom-in-up" data-aos-duration="500" data-aos-anchor-placement="top-bottom" src="SF.png" id="logo"></a>      
+</div>
+        
 
-@media (min-width: 200px) and (max-width: 699px){
-    #plot{
-        padding: 50px 50px 0 50px;
-        font-size: 28px;
-    }
+<script>
+  
+    function copy() {
+  let plot = document.getElementById("plot");
+  plot.select();
+  document.execCommand("copy");
 }
+        
+</script>
+        
+<script  src="https://unpkg.com/aos@next/dist/aos.js">
+        </script>
+        
+        <script>
+            AOS.init();
+        </script>
+</div>           
+</body>
+</html>
