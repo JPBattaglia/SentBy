@@ -118,7 +118,7 @@ button:hover{
 }
 
 #copyB{
-        width: 85px;
+        width: 100px;
         padding: 8px;
         margin: 10px;
         font-size: 18px;
@@ -131,17 +131,17 @@ button:hover{
     margin-bottom: 10px;
     border-radius: 30px;
     background: #00459e;
-    box-shadow: inset 8px 8px 14px #001c3f,
+    box-shadow: inset -8px -8px 14px #001c3f,
             13px 13px 35px #002,
-            inset -8px -8px 14px #006efd;
+            inset 8px 8px 14px #006efd;
 }
 
 #favButton:hover{
     border-radius: 30px;
     background: #00459e;
-    box-shadow: inset -8px -8px 14px #001c3f,
+    box-shadow: inset 8px 8px 14px #001c3f,
             5px 8px 25px #ff6000,
-            inset 8px 8px 14px #006efd;
+            inset -8px -8px 14px #006efd;
 }
 
 #favButton1{
@@ -150,17 +150,17 @@ button:hover{
     margin-right: 10px;
     border-radius: 30px;
     background: #ff3300;
-    box-shadow: inset 14px 14px 23px #661400,
+    box-shadow: inset -14px -14px 23px #661400,
             13px 13px 35px #002,
-            inset -14px -14px 23px #ff5200;
+            inset 14px 14px 23px #ff5200;
 }
 
 #favButton1:hover{
     border-radius: 30px;
     background: #ff3300;
-    box-shadow: inset -14px -14px 23px #661400,
+    box-shadow: inset 14px 14px 23px #661400,
             5px 8px 20px #ff6000,
-            inset 14px 14px 23px #ff5200;
+            inset -14px -14px 23px #ff5200;
 }
 
 .nav{
@@ -296,12 +296,13 @@ button:hover{
 
 button[type=submit] {
         color:#fff;
-        width: 110px;
+        padding: 8px;
+        width: 100px;
         border-radius: 30px;
         font-family: 'Federant';
-        font-size: 20px;
+        font-size: 18px;
         text-decoration: none;
-        margin-bottom: -40px;
+        margin-bottom: -30px;
     }
 
 
@@ -321,7 +322,7 @@ button[type=submit] {
     }
     
     #plot{
-        margin: 50px auto;
+        margin: 45px auto;
     }
     
     button[type=submit]{
@@ -329,7 +330,7 @@ button[type=submit] {
     }
     
     #favbutton{
-        margin: 20px 30px;
+        margin: 40px 30px;
     }
     
 }
@@ -403,7 +404,6 @@ button[type=submit] {
         padding: 15px;
         margin: 40px;
         font-size: 30px;
-        border-radius: 100px;
     }
     
     button[type=submit]{
@@ -419,7 +419,7 @@ button[type=submit] {
         padding: 12px;
         margin: 30px 0 45px;
         font-size: 30px;
-        border-radius: 100px;
+        border-radius: 18px;
     }
 }
 
