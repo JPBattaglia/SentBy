@@ -66,7 +66,7 @@ ul{
 
 #plot{
     color: #003e83;
-    padding: 10px 0px;
+    padding: 10px 20px;
     font-size: 26px;
     width: 85%;
     margin: 20px auto 20px;
@@ -423,7 +423,7 @@ button[type=submit] {
     }
 }
 
-@media (min-width: 450px) and (max-width: 699px){
+@media (min-width: 200px) and (max-width: 699px){
     #plot{
         padding: 50px 50px 0 50px;
         font-size: 28px;
