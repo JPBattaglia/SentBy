@@ -48,7 +48,7 @@ ul{
     min-height: 200px;
     color: #003e83;
     padding: 10px;
-    font-size: 26px;
+    font-size: 24px;
     margin: 0 auto 10px;
     font-family: 'Kaushan Script', monospace;
     font-weight: bolder;
@@ -61,7 +61,7 @@ ul{
     box-shadow:  
              13px 13px 35px #002;
     text-shadow:
-       2px 2px 0px white;
+       2px 1px 0px white;
 }
 
 #plot{
@@ -164,15 +164,17 @@ button:hover{
 }
 
 .nav{
+    background: linear-gradient(180deg, #0258b5, #003975 45%, #002b59 75%, #001c3b 100% 100%);
+    box-shadow:
+            -3px -3px 25px #002;
     width: 100%;
     bottom: 10px;
     margin-top: 35px;
-    box-shadow: -2px -5px 10px #001c3f;
     z-index: 1;
 }
 
 #logo{
-    margin: -70px 30%;
+    margin: -70px 30% 25px;
     width: 70px;
     filter: drop-shadow(5px 5px 6px black);
     cursor: pointer;
@@ -289,7 +291,7 @@ button:hover{
         border-radius: 25px; /* Rounded borders */
         box-sizing: border-box; /* Make sure that padding and width stays in place */
         margin-top: 25px; /* Add a top margin */
-        margin-bottom: 25px; /* Bottom margin */
+        margin-bottom: 26px; /* Bottom margin */
         resize: none; 
         z-index: 99;
     }
@@ -445,3 +447,4 @@ button[type=submit] {
         margin-top: 20px;
     }
 }
+
