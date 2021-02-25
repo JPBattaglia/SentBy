@@ -383,7 +383,7 @@ button[type=submit] {
         padding: 70px 70px 0 70px;
         font-size: 32px;
         width: 75%;
-        margin: 40px auto;
+        margin: 50px auto;
     }
     
     .title{
@@ -401,9 +401,14 @@ button[type=submit] {
     
     button{
         width: 250px;
-        padding: 15px;
+        padding: 12px;
         margin: 40px;
         font-size: 30px;
+        border-radius: 50px;
+    }
+    
+    button:hover{
+        border-radius: 50px;
     }
     
     button[type=submit]{
@@ -416,10 +421,10 @@ button[type=submit] {
     
     #copyB{
         width: 150px;
-        padding: 12px;
+        padding: 10px;
         margin: 30px 0 45px;
         font-size: 30px;
-        border-radius: 18px;
+        border-radius: 30px;
     }
 }
 
