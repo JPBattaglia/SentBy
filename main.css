@@ -296,18 +296,19 @@ background:linear-gradient(#ff6000, #bc4901 40%, #a84100, #602000);
 
     /* Style inputs with type="text", select elements and textareas */
     input[type=text], textarea {
+        color: #003e83;
         outline: none;
         font-family: 'federant', serif;
         font-size: 18px;
         font-weight: bolder;
-        background-color: #ffefc7;
+        background: linear-gradient(145deg, #ceb585, #ffefc7);
         margin: auto;
         box-shadow: 13px 13px 25px #002;
         text-align: center;
         width: 80%; /* Full width */
-        padding: 8px; /* Some padding */  
-        border: 5px double #b33d02; /* Gray border */
-        border-radius: 25px; /* Rounded borders */
+        padding: 7px; /* Some padding */  
+        border: 4px double #bf4000; /* Gray border */
+        border-radius: 12px; /* Rounded borders */
         box-sizing: border-box; /* Make sure that padding and width stays in place */
         margin-top: 25px; /* Add a top margin */
         margin-bottom: 26px; /* Bottom margin */
@@ -360,6 +361,8 @@ button[type=submit] {
     
     .nav{
         height: 130px;
+        background-image: radial-gradient(circle, #0258b5 65px, transparent 0), 
+                    linear-gradient(transparent 30%, #0258b5 30%, #003975 70%, transparent 60%);
     }
     
     #favul{
@@ -368,14 +371,14 @@ button[type=submit] {
     
     input[type=text]{
         height: 70px;
-        border-radius: 100px;
+        border-radius: 15px;
         margin: 40px;
         font-size: 30px;
     }
     
     #message{
         height: 220px;
-        border-radius: 50px;
+        border-radius: 15px;
         font-size: 30px;
         padding: 40px 50px;
     }
