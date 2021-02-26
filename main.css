@@ -20,7 +20,7 @@ body{
 
 #favul{
     margin: auto;
-    width:80%;
+    width: 85%;
 }
 
 #item::placeholder { 
@@ -30,6 +30,7 @@ body{
     }
 
 #item{
+    width: 85%;
     margin: 25px 0 15px;
     color: #003e83;
     outline: none;
@@ -305,7 +306,7 @@ background:linear-gradient(#ff6000, #bc4901 40%, #a84100, #602000);
         margin: auto;
         box-shadow: 13px 13px 25px #002;
         text-align: center;
-        width: 80%; /* Full width */
+        width: 85%; /* Full width */
         padding: 7px; /* Some padding */  
         border: 4px double #bf4000; /* Gray border */
         border-radius: 12px; /* Rounded borders */
@@ -330,8 +331,7 @@ button[type=submit] {
 
     /* Add a background color and some padding around the form */
     .container{
-        max-width: 95%;
-        margin: auto;
+        margin: 0 auto;
     }
 
 @media (min-height: 700px){
