@@ -163,13 +163,25 @@ button:hover{
             inset -14px -14px 23px #ff5200;
 }
 
+.navfav{
+background:linear-gradient(#ff6000, #bc4901 40%, #a84100, #602000);
+    position: fixed;
+    position: fixed;
+    bottom: 10px;
+    width: 100%;
+    height: 100px;
+    margin-top: 35px;
+    z-index: 1;
+    background-image: radial-gradient(circle, #bc4901 50px, transparent 0), 
+                    linear-gradient(transparent 30%, #bc4901 30%, #873501 70%, transparent 60%);
+}
+
 .nav{
+    background-image: radial-gradient(circle, #0258b5 50px, transparent 0), 
+                    linear-gradient(transparent 30%, #0258b5 30%, #003975 70%, transparent 60%);
     font-family: 'Federant';
     position: fixed;
-    background: linear-gradient(180deg, #0258b5, #003975 45%, #002b59 75%, #001c3b 100% 100%);
-    bottom: 0px;
-    box-shadow:
-            -3px -3px 25px #002;
+    bottom: 10px;
     width: 100%;
     height: 100px;
     margin-top: 35px;
@@ -177,9 +189,9 @@ button:hover{
 }
 
 #logo{
-    margin-top: 5px;
-    width: 70px;
-    filter: drop-shadow(5px 5px 6px black);
+    margin-top: 12px;
+    width: 65px;
+    filter: drop-shadow(1px 2px 5px black);
     cursor: pointer;
 }
 
@@ -190,13 +202,13 @@ button:hover{
 #one{
     float: left;
     color: white;
-    margin: 25px 0px 0px 10%;
+    margin: 33px 0px 0px 5%;
     font-size: 15px;
     width: 70px;
     border-radius: 100px;
     background: #bf4000;
     box-shadow: inset -11px -11px 12px #581d00,
-            -2px 6px 10px #000,
+            1px 2px 5px #000,
             inset 11px 11px 12px #ff6300;
     padding: 7px 8px;
     text-align: center;
@@ -209,11 +221,11 @@ button:hover{
     color: white;
     font-size: 15px;
     width: 70px;
-    margin: 25px 10% 0px 0px;
+    margin: 33px 5% 0px 0px;
     border-radius: 30px;
     background: #bf4000;
     box-shadow: inset -11px -11px 12px #581d00,
-            2px 6px 10px #000,
+            1px 2px 5px #000,
             inset 11px 11px 12px #ff6300;
     padding: 7px 8px;
     text-align: center;
@@ -224,13 +236,13 @@ button:hover{
 #onefav{
     float:left;
     color: white;
-    margin: 25px 0px 0px 10%;
+    margin: 33px 0px 0px 10%;
     font-size: 15px;
     width: 70px;
     border-radius: 100px;
     background:  #00459e;
     box-shadow: inset -8px -8px 14px #001c3f,
-            5px 8px 25px #002,
+            -1px 2px 5px #002,
             inset 8px 8px 14px #006efd;
     padding:8px 8px;
     text-align: center;
@@ -243,11 +255,11 @@ button:hover{
     color: white;
     font-size: 15px;
     width: 70px;
-    margin: 25px 10% 0px 0px;
+    margin: 33px 10% 0px 0px;
     border-radius: 30px;
     background:  #00459e;
     box-shadow: inset -8px -8px 14px #001c3f,
-            5px 8px 25px #002,
+            1px 2px 5px #002,
             inset 8px 8px 14px #006efd;
     padding: 8px 8px;
     text-align: center;
