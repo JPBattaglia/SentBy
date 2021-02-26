@@ -1,96 +1,104 @@
 <html>
     <head>
-	<meta property="og:title" content="Nino Battaglia" />
+	<meta property="og:title" content="Sent-From" />
 	<meta property="og:image:type" content="image/png" />
 	<meta property="og:image:width" content="400" />
 	<meta property="og:image:height" content="300" />
-	<meta property="og:image" content="https://i.ibb.co/6rWT50L/Business-Card.png" />
-	<meta property="og:image:secure_url" content="https://i.ibb.co/6rWT50L/Business-Card.png" />
+	<meta property="og:image" content="https://i.ibb.co/dtYHrc6/Sent-From-link-image.png"/>
+	<meta property="og:image:secure_url" content="https://i.ibb.co/dtYHrc6/Sent-From-link-image.png"/>
         <meta name="keywords" content="Sent From My...">
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <title>Sent-From</title>
-        <meta name="description" content="An interactive Random Generator.">
+        <meta name="description" content="Sent From My...Random Generator for e-mail.">
         <link rel="stylesheet" href="main.css">
         <link rel="shortcut icon" type="image/png" href="Envelope.png">
         <link href="https://fonts.googleapis.com/css?family=Federant|Akronim|Kaushan+Script|Orbitron|Quintessential" rel="stylesheet"> 
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     </head>
-    <body style="background:linear-gradient(#ff6000, #bc4901 40%, #a84100, #602000);">
+    <body>
         
-        <div data-aos="zoom-in-up" data-aos-duration="600" data-aos-anchor-placement="top-bottom">
-                <img class="title" src="Sent%20From.png">
+        <div class="wrapper">
+        
+        <div data-aos="zoom-in-up" data-aos-duration="500" data-aos-anchor-placement="top-bottom">
+                <img class="title" src="Sentfrom.png">
         </div> 
- 
-<form>
-      <input data-aos="zoom-in-up" data-aos-duration="500" data-aos-delay="200" data-aos-anchor-placement="top-bottom" id="item" type="text" placeholder="Add New Favorite Here" >
-    </form>
+    
+    <button style="margin: 30px 0 10px 0;" data-aos="flip-right" data-aos-duration="600" data-aos-delay="300"  type="button" onclick="GetPlot()">Generate</button><br>
         
-<div data-aos="zoom-in-up" data-aos-duration="500" data-aos-delay="300" data-aos-anchor-placement="top-bottom" id="favul"><ul id="items"> Type or paste your Sent-From into the box above and then press enter to see it listed here:</ul></div>
-   
+<textarea data-aos="zoom-in-up" data-aos-duration="500" data-aos-delay="100" name="plot" id ="plot" cols="50" rows="6">Tap on "Generate" until you find the Sent From you like and then tap "Copy" to paste into your email.</textarea>
         
-<script>
-            
-const form = document.querySelector('form');
-const ul = document.querySelector('ul');
-const input = document.getElementById('item');
-let itemsArray = localStorage.getItem('items') ? JSON.parse(localStorage.getItem('items')) : [];
+        
+<script type="text/javascript">
 
-localStorage.setItem('items', JSON.stringify(itemsArray));
-const data = JSON.parse(localStorage.getItem('items'));
-
-const liMaker = (text) => {
-  const li = document.createElement('li');
-  li.textContent = text;
-  ul.appendChild(li);
+function GetPlot(){
+var Name = [
+    "Sent from 2 bean cans with a string between them.",
+    "Sent from my Great Grandma's rotary phone.",
+    "Sent from the payphone at the Opera. Guess who sung? Samsung.",
+    "Sent from the morse code button on the walkie talkie Santa brought me when I was nine.",
+    "Sent from the Audi bluetooth I'm test driving but the salesman doesnt know I'm broke and my credit sucks.",
+    "Sent from my iPhone while my dumb kid has soccer practice. They suck, I mean suck bad, but the coach is hot though.",
+    "Sent from the back seat of your mom's Lexus. I can almost see your house.",
+    "Sent from the confessional at St Paul's... just between us it should be called St Peter's.  Shhhh.",
+    "Sent from my DUI class, I need a drink.",
+    "Sent from the unemployment office because I told my boss off.",
+    "Sent from the inside of my landlord's closet. He evicted me. Man is he in for a surprise.",
+    "Sent from your Roku. I can't believe you watched Twighlight 16 times last month. You need help.",
+    "Sent from the treadmill at my gym... yoga pants aren't for everyone, Jeez.",
+    "Sent from your 4th grade math class. Your teacher said you were dumb back then too.",
+    "Sent from the STD clinic, it seems I have a few calls to make.",
+    "Sent from my hair appointment, it seems my husband has been lying to me about what the word 'facial' means.",
+    "Sent from a dirty blanket and a campfire.",
+    "Sent from the Kia two cars back, Learn how to use a turn signal!",
+    "Sent from my old Palm Pilot.",
+    "Sent from the hotel on my wedding night. What did I just do?",
+    "Sent from the pew in the back of my church. Who knew you couldn't make change in the collection plate?",
+    "Sent from the brothel at the state line. Gonna be a few minutes late.",
+    "Sent from the end of the ski lift line. Pretty scary. Wife pissed her pants. Yellow snow ain't that bad.",
+    "Sent from my therapist's office. It seems I need more medication.",
+    "Sent from the hotel lobbv. The clerk looked at me funny when I asked for more lotion.",
+    "Sent from my hotel room after a 13 hour day. The housekeeper is gonna be mad when she cleans the shower.",
+    "Sent from my great uncle's short wave radio.",
+    "Sent from the massage parlor. Who knew 'surprise ending' meant my wife and kids would be there?",
+    "Sent from lunch with your sister. Turns out it's not just me. She thinks you're a punk too.",
+    "Sent from my campfire with smoke signals. Not my fault it's dark and windy.",
+    "Sent from behind the bar. You're cut off.",
+    "Sent from Applebee's. Chic next to me just sighed... like heavily when they asked 'is Sierra Mist okay?'",
+    "Sent from the C.B. in my van... down by the river.",
+    "Sent from my hooker's flip phone. Her pimp busted mine. Best $20 bucks I ever spent."];
+    
+var randomIndex = Math.floor(Math.random()*(Name.length-1));
+var n = "";
+n = n + Name[randomIndex];
+document.getElementById('plot').value = n;
 }
 
-form.addEventListener('submit', function (e) {
-  e.preventDefault();
-
-  itemsArray.push(input.value);
-  localStorage.setItem('items', JSON.stringify(itemsArray));
-  liMaker(input.value);
-  input.value = "";
-});
-
-data.forEach(item => {
-  liMaker(item);
-});
-
-function wipe() {
-  localStorage.clear();
-  while (ul.firstChild) {
-    ul.removeChild(ul.firstChild);
-  }
-  itemsArray = [];
-};
-
 </script>
-         
-<div data-aos="flip-right" data-aos-duration="800" data-aos-delay="500" data-aos-anchor-placement="top-bottom" id="buttons"> 
-    
-<button id="favbutton1" onclick="wipe()">Clear</button>
-
-<button id="favButton" onclick="copy()" >Copy</button><br>
-    
- </div>  
-
         
-<div data-aos="flip-up" data-aos-duration="600" data-aos-delay="300" data-aos-anchor-placement="top-bottom" class="navfav">
+<br>
+<button id="copyB" data-aos="flip-right" data-aos-duration="600" data-aos-delay="300" data-aos-anchor-placement="top-bottom" onclick="copy()">Copy</button><br>
+            
+</div> 
+        
+        
+<div data-aos="flip-up" data-aos-duration="600" data-aos-delay="300" data-aos-anchor-placement="top-bottom" class="nav">  
     
-        <a href="favorites.html"> <div data-aos="zoom-in-left" data-aos-duration="600" data-aos-delay="500" data-aos-anchor-placement="top-bottom" id="onefav">Favorite</div></a>
+        <a href="favorites.html"> <div data-aos="zoom-in-left" data-aos-duration="500" data-aos-delay="500" data-aos-anchor-placement="top-bottom" id="one">Favorite</div></a>
     
-        <a href="submission.html"> <div data-aos="zoom-in-right" data-aos-duration="600" data-aos-delay="500" data-aos-anchor-placement="top-bottom" id="twofav">Contact</div></a>
+        <a href="submission.html"> <div data-aos="zoom-in-right" data-aos-duration="500" data-aos-delay="500" data-aos-anchor-placement="top-bottom" id="two">Contact</div></a>
     
-        <a href="index.html"><img data-aos="zoom-in-up" data-aos-duration="500" data-aos-delay="400" data-aos-anchor-placement="top-bottom" src="SF.png" id="logo"></a>      
+        <a href="index.html"><img data-aos="zoom-in-up" data-aos-duration="500"data-aos-delay="500" data-aos-anchor-placement="top-bottom" src="SF.png" id="logo"></a>     
 </div>
+        
 
 <script>
   
-function copy() {
+    function copy() {
+  let plot = document.getElementById("plot");
+  plot.select();
   document.execCommand("copy");
 }
         
@@ -101,6 +109,6 @@ function copy() {
         
         <script>
             AOS.init();
-        </script>
+        </script>          
 </body>
 </html>
