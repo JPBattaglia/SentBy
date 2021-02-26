@@ -174,7 +174,7 @@ button:hover{
 }
 
 #logo{
-    margin: -45px 30% 25px;
+    margin-top: 5px;
     width: 70px;
     filter: drop-shadow(5px 5px 6px black);
     cursor: pointer;
@@ -187,7 +187,7 @@ button:hover{
 #one{
     float: left;
     color: white;
-    margin: 25px 0 0px 10%;
+    margin: 25px 0px 0px 10%;
     font-size: 15px;
     width: 70px;
     border-radius: 100px;
