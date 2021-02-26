@@ -202,7 +202,7 @@ background:linear-gradient(#ff6000, #bc4901 40%, #a84100, #602000);
 #one{
     float: left;
     color: white;
-    margin: 33px 0px 0px 5%;
+    margin: 33px 0px 0px 6%;
     font-size: 15px;
     width: 70px;
     border-radius: 100px;
@@ -221,7 +221,7 @@ background:linear-gradient(#ff6000, #bc4901 40%, #a84100, #602000);
     color: white;
     font-size: 15px;
     width: 70px;
-    margin: 33px 5% 0px 0px;
+    margin: 33px 6% 0px 0px;
     border-radius: 30px;
     background: #bf4000;
     box-shadow: inset -11px -11px 12px #581d00,
@@ -236,7 +236,7 @@ background:linear-gradient(#ff6000, #bc4901 40%, #a84100, #602000);
 #onefav{
     float:left;
     color: white;
-    margin: 33px 0px 0px 5%;
+    margin: 33px 0px 0px 6%;
     font-size: 15px;
     width: 70px;
     border-radius: 100px;
@@ -255,7 +255,7 @@ background:linear-gradient(#ff6000, #bc4901 40%, #a84100, #602000);
     color: white;
     font-size: 15px;
     width: 70px;
-    margin: 33px 5% 0px 0px;
+    margin: 33px 6% 0px 0px;
     border-radius: 30px;
     background:  #00459e;
     box-shadow: inset -8px -8px 14px #001c3f,
@@ -334,32 +334,36 @@ button[type=submit] {
         margin: auto;
     }
 
-@media (min-height: 737px){
+@media (min-height: 700px){
     .title{
         margin: 20px auto;
     }
     
-    #item{
-        margin-bottom: 20px;
+    ul{
+        margin: 50px 0 20px;
     }
     
     #plot{
-        margin: 45px auto;
+        margin: 40px auto;
     }
     
     button[type=submit]{
-        margin: 20px;
+        margin-top: 40px;
     }
     
-    #favbutton{
-        margin: 40px 30px;
+    .nav, .navfav{
+        bottom: 40px;
     }
     
+    input[type=text]{
+       margin: 20px auto 30px;
+    }
 }
 
 @media (min-width: 700px){
     
     .nav{
+        bottom: 20px;
         height: 130px;
         background-image: radial-gradient(circle, #0258b5 65px, transparent 0), 
                     linear-gradient(transparent 30%, #0258b5 30%, #003975 70%, transparent 60%);
@@ -426,11 +430,11 @@ button[type=submit] {
     }
     
     #one, #onefav{
-        margin: 40px 0px -5px 20%;
+        margin: 40px 0px 0px 15%;
     }
     
     #two, #twofav{
-        margin: 40px 20% 0px 0px;
+        margin: 40px 15% 0px 0px;
     }
     
     #logo{
@@ -474,11 +478,11 @@ button[type=submit] {
     }
     
     #one, #onefav{
-        margin: 30px 0px -10px 20%;
+        margin: 33px 0px 0px 20%;
     }
     
     #two, #twofav{
-        margin: 30px 20% -20px 0px;
+        margin: 33px 20% 0px 0px;
     }
 }
 
