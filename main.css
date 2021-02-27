@@ -309,7 +309,7 @@ background:linear-gradient(#ff6000, #bc4901 40%, #a84100, #602000);
         width: 85%; /* Full width */
         padding: 7px; /* Some padding */  
         border: 4px double #bf4000; /* Gray border */
-        border-radius: 12px; /* Rounded borders */
+        border-radius: 14px; /* Rounded borders */
         box-sizing: border-box; /* Make sure that padding and width stays in place */
         margin-top: 25px; /* Add a top margin */
         margin-bottom: 26px; /* Bottom margin */
@@ -331,10 +331,11 @@ button[type=submit] {
 
     /* Add a background color and some padding around the form */
     .container{
+        width: 95%;
         margin: 0 auto;
     }
 
-@media (min-height: 700px){
+@media (min-height: 725px){
     .title{
         margin: 20px auto;
     }
@@ -367,6 +368,13 @@ button[type=submit] {
         height: 130px;
         background-image: radial-gradient(circle, #0258b5 65px, transparent 0), 
                     linear-gradient(transparent 30%, #0258b5 30%, #003975 70%, transparent 60%);
+    }
+    
+    .navfav{
+        bottom: 20px;
+        height: 130px;
+        background-image: radial-gradient(circle, #bc4901 65px, transparent 0), 
+                    linear-gradient(transparent 30%, #bc4901 30%, #873501 70%, transparent 60%);
     }
     
     #favul{
@@ -439,7 +447,7 @@ button[type=submit] {
     
     #logo{
         width: 85px;
-        margin-top: 10px;
+        margin-top: 16px;
     }
     
     button{
