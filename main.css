@@ -18,6 +18,10 @@ body{
     filter: drop-shadow(14px 10px 10px #000);
 }
 
+#generater{
+    margin-top: 30px;
+}
+
 #favul{
     margin: auto;
     width: 85%;
@@ -552,6 +556,44 @@ button[type=submit] {
     
     #favbutton{
         margin-top: 20px;
+    }
+}
+
+@media (min-height: 700px) and (max-height: 999px){
+    input[type=text]{
+        height: 50px;
+        border-radius: 15px;
+        margin-top: 40px;
+        font-size: 20px;
+        width: 80%;
+    }
+    
+    #message{
+        height: 200px;
+        border-radius: 15px;
+        font-size: 22px;
+        padding: 30px 30px;
+        width: 80%;
+    }
+    
+    button[type=submit]{
+        margin-top: 20px;
+    }
+    
+    #favul{
+        margin: 50px auto;
+    }
+    
+    #item{
+        margin-top: 45px;
+    }
+    
+    #plot{
+        margin: 50px auto;
+    }
+    
+    #generater{
+        margin-top: 50px;
     }
 }
 
