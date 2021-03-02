@@ -601,6 +601,29 @@ button[type=submit] {
         margin: 25px;
     }
 }
-
+@media (min-height: 730px) and (max-height: 799px){
+    .nav, .navfav{
+        margin-top: 80px;
+    }
+    #plot{
+        margin: 30px auto;
+    }
+    
+    #item{
+        margin: 30px auto;
+    }
+    
+    input[type=text]{
+        margin-top: 30px;
+    }
+    
+    #message{
+        margin: 30px auto 30px;
+    }
+    
+    button[type=submit]{
+        margin-bottom: -25px;
+    }
+}
 
 
