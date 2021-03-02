@@ -24,9 +24,9 @@ body{
 }
 
 #item::placeholder { 
-        color: #008;
-        padding: 10px;
-        font-size: 20px;
+    color: #008;
+    padding: 10px;
+    font-size: 20px;
     }
 
 #item{
@@ -119,11 +119,11 @@ button:hover{
 }
 
 #copyB{
-        width: 100px;
-        padding: 8px;
-        margin: 10px;
-        font-size: 18px;
-        border-radius: 100px;
+    width: 100px;
+    padding: 8px;
+    margin: 10px;
+    font-size: 18px;
+    border-radius: 100px;
     }
 
 #favButton{
@@ -165,7 +165,7 @@ button:hover{
 }
 
 .navfav{
-background:linear-gradient(#ff6000, #bc4901 40%, #a84100, #602000);
+    background:linear-gradient(#ff6000, #bc4901 40%, #a84100, #602000);
     position: fixed;
     position: fixed;
     bottom: 10px;
@@ -277,92 +277,64 @@ background:linear-gradient(#ff6000, #bc4901 40%, #a84100, #602000);
 
     
 #message{
-        height: 150px;
-        padding: 35px 30px 0px;
-        color: #00c; 
-        margin-bottom: 15px;
+    height: 150px;
+    padding: 35px 30px 0px;
+    color: #00c; 
+    margin-bottom: 15px;
 }
 
 ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
-        color: #00c;
+    color: #00c;
 }
 
 :-ms-input-placeholder { /* Internet Explorer 10-11 */
-        color: red;
+    color: red;
 }
 
 ::-ms-input-placeholder { /* Microsoft Edge */
-        color: red;
-    }
+    color: red;
+}
 
     /* Style inputs with type="text", select elements and textareas */
 input[type=text], textarea {
-        color: #003e83;
-        outline: none;
-        font-family: 'federant', serif;
-        font-size: 18px;
-        font-weight: bolder;
-        background: linear-gradient(145deg, #ceb585, #ffefc7);
-        margin: auto;
-        box-shadow: 13px 13px 25px #002;
-        text-align: center;
-        width: 85%; /* Full width */
-        padding: 7px; /* Some padding */  
-        border: 4px double #bf4000; /* Gray border */
-        border-radius: 14px; /* Rounded borders */
-        box-sizing: border-box; /* Make sure that padding and width stays in place */
-        margin-top: 25px; /* Add a top margin */
-        margin-bottom: 26px; /* Bottom margin */
-        resize: none; 
-        z-index: 99;
-    }
+    color: #003e83;
+    outline: none;
+    font-family: 'federant', serif;
+    font-size: 18px;
+    font-weight: bolder;
+    background: linear-gradient(145deg, #ceb585, #ffefc7);
+    margin: auto;
+    box-shadow: 13px 13px 25px #002;
+    text-align: center;
+    width: 85%; /* Full width */
+    padding: 7px; /* Some padding */  
+    border: 4px double #bf4000; /* Gray border */
+    border-radius: 14px; /* Rounded borders */
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 25px; /* Add a top margin */
+    margin-bottom: 26px; /* Bottom margin */
+    resize: none; 
+    z-index: 99;
+}
 
 button[type=submit] {
-        color:#fff;
-        padding: 8px;
-        width: 100px;
-        border-radius: 30px;
-        font-family: 'Federant';
-        font-size: 18px;
-        text-decoration: none;
-        margin-bottom: -30px;
-    }
+    color:#fff;
+    padding: 8px;
+    width: 100px;
+    border-radius: 30px;
+    font-family: 'Federant';
+    font-size: 18px;
+    text-decoration: none;
+    margin-bottom: -30px;
+}
 
 
     /* Add a background color and some padding around the form */
 .container{
-        width: 95%;
-        margin: 0 auto;
-    }
-    
+    width: 95%;
+    margin: 0 auto;
 }
-
-
-@media (min-height: 725px){
-    .title{
-        margin: 20px auto;
-    }
     
-    ul{
-        margin: 50px 0 20px;
-    }
-    
-    #plot{
-        margin: 40px auto;
-    }
-    
-    button[type=submit]{
-        margin-top: 40px;
-    }
-    
-    .nav, .navfav{
-        bottom: 40px;
-    }
-    
-    input[type=text]{
-       margin: 20px auto 30px;
-    }
-}
 
 @media (min-width: 1000px){
     #plot{
@@ -377,7 +349,7 @@ button[type=submit] {
     }
     
     .title{
-        width: 300px;
+        width: 400px;
         margin: 50px auto;
     }
     
@@ -390,7 +362,7 @@ button[type=submit] {
     }
     
     #item{
-        margin: 100px auto;
+        margin: 50px auto 100px;
         height: 150px;
         font-size: 30px;
     }
@@ -404,6 +376,30 @@ button[type=submit] {
         height: 300px;
         font-size: 40px;
         padding: 50px;
+    }
+    
+    input[type=text]{
+        width: 80%;
+        height: 70px;
+        border-radius: 20px;
+        margin: 60px;
+        font-size: 30px;
+    }
+    
+    #message{
+        width: 80%;
+        margin-top: 50px;
+        height: 320px;
+        border-radius: 20px;
+        font-size: 30px;
+        padding: 40px 50px;
+    }
+    
+    button[type=submit]{
+        width: 200px;
+        padding: 12px;
+        font-size: 24px;
+        margin-top: 100px;
     }
 }
 
