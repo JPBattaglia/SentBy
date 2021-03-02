@@ -24,7 +24,7 @@ body{
 }
 
 #item::placeholder { 
-        color: #b00;
+        color: #008;
         padding: 10px;
         font-size: 20px;
     }
@@ -95,7 +95,7 @@ button{
     font-family: 'Federant';
     font-size: 20px;
     text-decoration: none;
-    border: .5px solid #ceb585; 
+    border: 1px solid #ceb585; 
     background: #bf4000;
     box-shadow: inset -11px -11px 12px #581d00,
             5px 8px 30px #002,
@@ -147,7 +147,7 @@ button:hover{
 
 #favButton1{
     width: 100px;
-    border: .5px solid #ceb585; 
+    border: 1px solid #ceb585; 
     margin-right: 30px;
     border-radius: 30px;
     background: #ff3300;
@@ -276,27 +276,27 @@ background:linear-gradient(#ff6000, #bc4901 40%, #a84100, #602000);
 }
 
     
-    #message{
+#message{
         height: 150px;
         padding: 35px 30px 0px;
-        color: #b33d02; 
+        color: #00c; 
         margin-bottom: 15px;
-    }
+}
 
-    ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
-        color: #c00;
-    }
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+        color: #00c;
+}
 
-    :-ms-input-placeholder { /* Internet Explorer 10-11 */
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
         color: red;
-    }
+}
 
-    ::-ms-input-placeholder { /* Microsoft Edge */
+::-ms-input-placeholder { /* Microsoft Edge */
         color: red;
     }
 
     /* Style inputs with type="text", select elements and textareas */
-    input[type=text], textarea {
+input[type=text], textarea {
         color: #003e83;
         outline: none;
         font-family: 'federant', serif;
@@ -330,10 +330,13 @@ button[type=submit] {
 
 
     /* Add a background color and some padding around the form */
-    .container{
+.container{
         width: 95%;
         margin: 0 auto;
     }
+    
+}
+
 
 @media (min-height: 725px){
     .title{
@@ -361,7 +364,52 @@ button[type=submit] {
     }
 }
 
-@media (min-width: 700px){
+@media (min-width: 1000px){
+    #plot{
+        height: 500px;
+        font-size: 50px;
+        padding: 50px;
+        margin: 100px auto;
+    }
+    
+    #copyB{
+        margin: 50px auto;
+    }
+    
+    .title{
+        width: 300px;
+        margin: 50px auto;
+    }
+    
+    #one, #onefav{
+        margin: 33px 0px 0px 20%;
+    }
+    
+    #two, #twofav{
+        margin: 33px 20% 0px 0px;
+    }
+    
+    #item{
+        margin: 100px auto;
+        height: 150px;
+        font-size: 30px;
+    }
+    
+    #item::placeholder{
+        font-size: 40px;
+    }
+    
+    ul{
+        margin-bottom: 100px;
+        height: 300px;
+        font-size: 40px;
+        padding: 50px;
+    }
+}
+
+
+
+@media (min-width: 700px) and (max-width: 999px){
     
     .nav{
         bottom: 20px;
@@ -504,4 +552,3 @@ button[type=submit] {
         margin-top: 20px;
     }
 }
-
