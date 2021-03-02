@@ -342,6 +342,7 @@ button[type=submit] {
         font-size: 50px;
         padding: 50px;
         margin: 100px auto;
+        width: 75%;
     }
     
     #copyB{
@@ -365,6 +366,7 @@ button[type=submit] {
         margin: 50px auto 100px;
         height: 150px;
         font-size: 30px;
+        width: 75%;
     }
     
     #item::placeholder{
@@ -376,10 +378,11 @@ button[type=submit] {
         height: 300px;
         font-size: 40px;
         padding: 50px;
+        width: 75%;
     }
     
     input[type=text]{
-        width: 80%;
+        width: 75%;
         height: 70px;
         border-radius: 20px;
         margin: 60px;
@@ -387,7 +390,7 @@ button[type=submit] {
     }
     
     #message{
-        width: 80%;
+        width: 75%;
         margin-top: 50px;
         height: 320px;
         border-radius: 20px;
@@ -402,8 +405,6 @@ button[type=submit] {
         margin-top: 100px;
     }
 }
-
-
 
 @media (min-width: 700px) and (max-width: 999px){
     
@@ -423,6 +424,7 @@ button[type=submit] {
     
     #favul{
         margin: -15px auto;
+        width: 75%;
     }
     
     input[type=text]{
@@ -430,6 +432,7 @@ button[type=submit] {
         border-radius: 15px;
         margin: 40px;
         font-size: 30px;
+        width: 75%;
     }
     
     #message{
@@ -437,12 +440,14 @@ button[type=submit] {
         border-radius: 15px;
         font-size: 30px;
         padding: 40px 50px;
+        width: 75%;
     }
     
     #item{
         height: 100px;
         margin: 50px auto 75px;
         font-size: 30px;
+        width: 75%;
     }
     
     ::placeholder {
@@ -523,6 +528,7 @@ button[type=submit] {
     }
 }
 
+
 @media (min-width: 450px) and (max-width: 699px){
     #plot{
         padding: 50px 50px 0 50px;
@@ -548,3 +554,5 @@ button[type=submit] {
         margin-top: 20px;
     }
 }
+
+
