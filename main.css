@@ -170,13 +170,11 @@ button:hover{
 
 .navfav{
     background:linear-gradient(#ff6000, #bc4901 40%, #a84100, #602000);
-    position: fixed;
-    position: fixed;
     bottom: 10px;
     width: 100%;
     height: 100px;
     margin-top: 35px;
-    z-index: -99;
+    z-index: 1;
     background-image: radial-gradient(circle, #bc4901 50px, transparent 0), 
                     linear-gradient(transparent 30%, #bc4901 30%, #873501 70%, transparent 60%);
 }
@@ -185,12 +183,11 @@ button:hover{
     background-image: radial-gradient(circle, #0258b5 50px, transparent 0), 
                     linear-gradient(transparent 30%, #0258b5 30%, #003975 70%, transparent 60%);
     font-family: 'Federant';
-    position: fixed;
     bottom: 10px;
     width: 100%;
     height: 100px;
     margin-top: 35px;
-    z-index: -99;
+    z-index: 1;
 }
 
 #logo{
@@ -317,8 +314,7 @@ input[type=text], textarea {
     box-sizing: border-box; /* Make sure that padding and width stays in place */
     margin-top: 25px; /* Add a top margin */
     margin-bottom: 26px; /* Bottom margin */
-    resize: none; 
-    z-index: 99;
+    resize: none;
 }
 
 button[type=submit] {
@@ -338,6 +334,7 @@ button[type=submit] {
     width: 95%;
     margin: 0 auto;
 }
+
     
 
 @media (min-width: 1000px){
@@ -406,6 +403,10 @@ button[type=submit] {
         width: 200px;
         padding: 12px;
         font-size: 24px;
+        margin-top: 100px;
+    }
+    
+    .nav, .navfav{
         margin-top: 100px;
     }
 }
@@ -555,7 +556,49 @@ button[type=submit] {
     }
     
     #favbutton{
-        margin-top: 20px;
+        margin: 20px;
+    }
+    
+    .nav,.navfav{
+        margin-top: 10px;
+    }
+    
+    button[type=submit]{
+        margin-bottom: -15px;
+    }
+}
+
+@media (min-height: 800px) and (max-height: 1000px){
+    .nav, .navfav{
+        margin-top: 80px;
+    }
+    
+    input[type=text]{
+        margin-top: 50px;
+    }
+    
+    #message{
+        margin: 40px auto 40px;
+    }
+    
+    #item{
+        margin: 50px auto;
+    }
+    
+    #favbutton{
+        margin-top: 50px;
+    }
+    
+    #plot{
+        margin: 40px auto;
+    }
+    
+    #generater{
+        margin-top: 50px;
+    }
+    
+    #copyB{
+        margin: 25px;
     }
 }
 
